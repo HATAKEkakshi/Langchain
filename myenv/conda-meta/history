@@ -154,3 +154,8 @@
 +defaults/osx-arm64::fsspec-2023.10.0-py39hca03da5_0
 +defaults/osx-arm64::openssl-3.0.13-h1a28f6b_0
 # update specs: ['conda-forge::huggingface_hub']
+==> 2024-02-25 01:30:19 <==
+# cmd: /Users/hemantkumar/anaconda3/bin/conda install conda-forge::python-dotenv
+# conda version: 23.7.4
++conda-forge/noarch::python-dotenv-1.0.1-pyhd8ed1ab_0
+# update specs: ['conda-forge::python-dotenv']

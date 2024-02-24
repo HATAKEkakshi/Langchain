@@ -27,9 +27,6 @@
 # include <openssl/e_os2.h>
 # include <openssl/types.h>
 # include <openssl/conferr.h>
-# ifndef OPENSSL_NO_STDIO
-#  include <stdio.h>
-# endif
 
 #ifdef  __cplusplus
 extern "C" {

@@ -1,0 +1,173 @@
+{
+  "build": "py39hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/Users/hemantkumar/anaconda3/pkgs/distro-1.8.0-py39hca03da5_0",
+  "files": [
+    "bin/distro",
+    "lib/python3.9/site-packages/distro-1.8.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/distro-1.8.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/distro-1.8.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/distro-1.8.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/distro-1.8.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/distro-1.8.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/distro-1.8.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/distro-1.8.0.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/distro-1.8.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/distro/__init__.py",
+    "lib/python3.9/site-packages/distro/__main__.py",
+    "lib/python3.9/site-packages/distro/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/distro/__pycache__/__main__.cpython-39.pyc",
+    "lib/python3.9/site-packages/distro/__pycache__/distro.cpython-39.pyc",
+    "lib/python3.9/site-packages/distro/distro.py",
+    "lib/python3.9/site-packages/distro/py.typed"
+  ],
+  "fn": "distro-1.8.0-py39hca03da5_0.conda",
+  "legacy_bz2_md5": "68243a801a85a68903f8133df97ec7dd",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/hemantkumar/anaconda3/pkgs/distro-1.8.0-py39hca03da5_0",
+    "type": 1
+  },
+  "md5": "2132f4a925c9f85265267cec2a451a56",
+  "name": "distro",
+  "package_tarball_full_path": "/Users/hemantkumar/anaconda3/pkgs/distro-1.8.0-py39hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/distro",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_10ye1wu827/croot/distro_1701455019085/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "a68bdc1a798f1a061ba3648c8681997905fb373080d64e182f04ccd16f7073d5",
+        "sha256_in_prefix": "b47dfec10d7d39d49163f43112c84d1809b1b19b89ac50c39192ed26df1ff01f",
+        "size_in_bytes": 466
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro-1.8.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro-1.8.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+        "sha256_in_prefix": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+        "size_in_bytes": 11325
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro-1.8.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "361630f7850f5dbefcfd9dff56d2f14c9d734205142a84e7760d74b8a257f34d",
+        "sha256_in_prefix": "361630f7850f5dbefcfd9dff56d2f14c9d734205142a84e7760d74b8a257f34d",
+        "size_in_bytes": 6915
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro-1.8.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8bd306990594b09500c14f5c5eff7f55fe93d74ac8802cf1c267e1e805499503",
+        "sha256_in_prefix": "8bd306990594b09500c14f5c5eff7f55fe93d74ac8802cf1c267e1e805499503",
+        "size_in_bytes": 1256
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro-1.8.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro-1.8.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro-1.8.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ee353f83454bab4ba1701726e2cb9836ba5d6e4dd6777c928706019e721de7b4",
+        "sha256_in_prefix": "ee353f83454bab4ba1701726e2cb9836ba5d6e4dd6777c928706019e721de7b4",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro-1.8.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "dce6e3a9031b875c5e410c2c5ad81b7c33433030fe11b8204753a3ff3f2cf617",
+        "sha256_in_prefix": "dce6e3a9031b875c5e410c2c5ad81b7c33433030fe11b8204753a3ff3f2cf617",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro-1.8.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8a475efd5fd711d481a9a19de6d12b88dff0cd81cb8135ffcd5b65b062c7bf04",
+        "sha256_in_prefix": "8a475efd5fd711d481a9a19de6d12b88dff0cd81cb8135ffcd5b65b062c7bf04",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d9f1e317e49f80fbe3c8d67588787fc23a96751fd8a393831f0642d232c13e17",
+        "sha256_in_prefix": "d9f1e317e49f80fbe3c8d67588787fc23a96751fd8a393831f0642d232c13e17",
+        "size_in_bytes": 981
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "6eef5ddd389fa0a72264572a441bb2815dc64ae4e19d50ff9b620ae1ccfde95b",
+        "sha256_in_prefix": "6eef5ddd389fa0a72264572a441bb2815dc64ae4e19d50ff9b620ae1ccfde95b",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2bef854a2aa694ac6a809a3eb57cfe56a8c0f5f47f78f81b7873666d9886e2d",
+        "sha256_in_prefix": "b2bef854a2aa694ac6a809a3eb57cfe56a8c0f5f47f78f81b7873666d9886e2d",
+        "size_in_bytes": 862
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "422922066a20bce97b8e83c928e6b7fe29ad183d3edf13bf6946c80bd00da134",
+        "sha256_in_prefix": "422922066a20bce97b8e83c928e6b7fe29ad183d3edf13bf6946c80bd00da134",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro/__pycache__/distro.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b6d58854e78ce67b8a1beb67579882fcd54e61958ff0569e9882a82125fb840",
+        "sha256_in_prefix": "0b6d58854e78ce67b8a1beb67579882fcd54e61958ff0569e9882a82125fb840",
+        "size_in_bytes": 42220
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro/distro.py",
+        "path_type": "hardlink",
+        "sha256": "5193b52e3221b4508c7656e2cf7f608f7ada57e0267f7481c331b37c0a62307c",
+        "sha256_in_prefix": "5193b52e3221b4508c7656e2cf7f608f7ada57e0267f7481c331b37c0a62307c",
+        "size_in_bytes": 49330
+      },
+      {
+        "_path": "lib/python3.9/site-packages/distro/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "29a5ba826bbd0ed9ff8900940e7322faee3f532148a61b434fdbb311db25431e",
+  "size": 33189,
+  "subdir": "osx-arm64",
+  "timestamp": 1701455059691,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/distro-1.8.0-py39hca03da5_0.conda",
+  "version": "1.8.0"
+}

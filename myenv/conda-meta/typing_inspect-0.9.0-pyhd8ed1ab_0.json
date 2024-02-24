@@ -1,0 +1,115 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "mypy_extensions >=0.3.0",
+    "python >=3.5",
+    "typing_extensions >=3.7.4"
+  ],
+  "extracted_package_dir": "/Users/hemantkumar/anaconda3/pkgs/typing_inspect-0.9.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/typing_inspect-0.9.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/typing_inspect-0.9.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/typing_inspect-0.9.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/typing_inspect-0.9.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/typing_inspect-0.9.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/typing_inspect-0.9.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/typing_inspect-0.9.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/typing_inspect-0.9.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/typing_inspect.py",
+    "lib/python3.9/site-packages/__pycache__/typing_inspect.cpython-39.pyc"
+  ],
+  "fn": "typing_inspect-0.9.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/hemantkumar/anaconda3/pkgs/typing_inspect-0.9.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "9e924b76b91908a17e28a19a0ab88687",
+  "name": "typing_inspect",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/hemantkumar/anaconda3/pkgs/typing_inspect-0.9.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/typing_inspect-0.9.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/typing_inspect-0.9.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f9d3567d00ca2337f769fb28c553cc590213ecefed4ed599110c10ded2ea0117",
+        "sha256_in_prefix": "f9d3567d00ca2337f769fb28c553cc590213ecefed4ed599110c10ded2ea0117",
+        "size_in_bytes": 1087
+      },
+      {
+        "_path": "site-packages/typing_inspect-0.9.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f74e005a3101f911eb941189f181aa5ec0be75f3a800dde2b9fb1097a56a57d9",
+        "sha256_in_prefix": "f74e005a3101f911eb941189f181aa5ec0be75f3a800dde2b9fb1097a56a57d9",
+        "size_in_bytes": 1468
+      },
+      {
+        "_path": "site-packages/typing_inspect-0.9.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2d11f07fbf91e40e5c5ddd33c875ddeffb6ae9c0b8c818a7baee7296868eb0d2",
+        "sha256_in_prefix": "2d11f07fbf91e40e5c5ddd33c875ddeffb6ae9c0b8c818a7baee7296868eb0d2",
+        "size_in_bytes": 841
+      },
+      {
+        "_path": "site-packages/typing_inspect-0.9.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/typing_inspect-0.9.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "sha256_in_prefix": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/typing_inspect-0.9.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c1d8c6e9c2b6705324612cf21935f40fea5d215af778246250ff77c9e14309a3",
+        "sha256_in_prefix": "c1d8c6e9c2b6705324612cf21935f40fea5d215af778246250ff77c9e14309a3",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/typing_inspect-0.9.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "58370c61b330bc361a977e42cfe41a28c643d8429226f07e382e1450eb0730e7",
+        "sha256_in_prefix": "58370c61b330bc361a977e42cfe41a28c643d8429226f07e382e1450eb0730e7",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "site-packages/typing_inspect.py",
+        "path_type": "hardlink",
+        "sha256": "e60216a262cf7ee0e981dde05f51a59d7d0cb97337568ad1e23d96daa5ce4624",
+        "sha256_in_prefix": "e60216a262cf7ee0e981dde05f51a59d7d0cb97337568ad1e23d96daa5ce4624",
+        "size_in_bytes": 28269
+      },
+      {
+        "_path": "lib/python3.9/site-packages/__pycache__/typing_inspect.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "16e0b825c138e14ebc84623248d91d93a8cff29bb93595cc4aa46ca32f24f1de",
+  "size": 14906,
+  "subdir": "noarch",
+  "timestamp": 1685820229594,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/typing_inspect-0.9.0-pyhd8ed1ab_0.conda",
+  "version": "0.9.0"
+}

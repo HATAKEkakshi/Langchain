@@ -1,0 +1,332 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pydantic >=1.0.0,<3.0.0",
+    "pytest-subtests >=0.11.0,<0.12.0",
+    "python >=3.8.1,<4.0",
+    "requests >=2.0.0,<3.0.0"
+  ],
+  "extracted_package_dir": "/Users/hemantkumar/anaconda3/pkgs/langsmith-0.1.5-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/langsmith-0.1.5.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/langsmith-0.1.5.dist-info/METADATA",
+    "lib/python3.9/site-packages/langsmith-0.1.5.dist-info/RECORD",
+    "lib/python3.9/site-packages/langsmith-0.1.5.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/langsmith-0.1.5.dist-info/WHEEL",
+    "lib/python3.9/site-packages/langsmith-0.1.5.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/langsmith-0.1.5.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/langsmith/__init__.py",
+    "lib/python3.9/site-packages/langsmith/cli/__init__.py",
+    "lib/python3.9/site-packages/langsmith/cli/docker-compose.yaml",
+    "lib/python3.9/site-packages/langsmith/cli/main.py",
+    "lib/python3.9/site-packages/langsmith/cli/users.xml",
+    "lib/python3.9/site-packages/langsmith/client.py",
+    "lib/python3.9/site-packages/langsmith/env/__init__.py",
+    "lib/python3.9/site-packages/langsmith/env/_git.py",
+    "lib/python3.9/site-packages/langsmith/env/_runtime_env.py",
+    "lib/python3.9/site-packages/langsmith/evaluation/__init__.py",
+    "lib/python3.9/site-packages/langsmith/evaluation/evaluator.py",
+    "lib/python3.9/site-packages/langsmith/evaluation/string_evaluator.py",
+    "lib/python3.9/site-packages/langsmith/py.typed",
+    "lib/python3.9/site-packages/langsmith/run_helpers.py",
+    "lib/python3.9/site-packages/langsmith/run_trees.py",
+    "lib/python3.9/site-packages/langsmith/schemas.py",
+    "lib/python3.9/site-packages/langsmith/utils.py",
+    "lib/python3.9/site-packages/langsmith/wrappers/__init__.py",
+    "lib/python3.9/site-packages/langsmith/wrappers/_openai.py",
+    "lib/python3.9/site-packages/langsmith/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/cli/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/cli/__pycache__/main.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/__pycache__/client.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/env/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/env/__pycache__/_git.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/env/__pycache__/_runtime_env.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/evaluation/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/evaluation/__pycache__/evaluator.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/evaluation/__pycache__/string_evaluator.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/__pycache__/run_helpers.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/__pycache__/run_trees.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/__pycache__/schemas.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/wrappers/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/langsmith/wrappers/__pycache__/_openai.cpython-39.pyc",
+    "bin/langsmith"
+  ],
+  "fn": "langsmith-0.1.5-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/hemantkumar/anaconda3/pkgs/langsmith-0.1.5-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "972b424a61962da49ba7ebde82eb5a94",
+  "name": "langsmith",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/hemantkumar/anaconda3/pkgs/langsmith-0.1.5-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/langsmith-0.1.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/langsmith-0.1.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "56b8bbf96623783d60a01112e782e6209e2b54fc03a833ace51867aa30821013",
+        "sha256_in_prefix": "56b8bbf96623783d60a01112e782e6209e2b54fc03a833ace51867aa30821013",
+        "size_in_bytes": 13073
+      },
+      {
+        "_path": "site-packages/langsmith-0.1.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9a892d2c45393a2fdfeb2d766a058418207676ee16a6e038c52bb2429b76f9eb",
+        "sha256_in_prefix": "9a892d2c45393a2fdfeb2d766a058418207676ee16a6e038c52bb2429b76f9eb",
+        "size_in_bytes": 3124
+      },
+      {
+        "_path": "site-packages/langsmith-0.1.5.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/langsmith-0.1.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "sha256_in_prefix": "b0ff78e83ee31421de373e48ab87cbe0bbbe3eb5ab16c81f2d76db91c8886708",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/langsmith-0.1.5.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0b4ca7416933a3607711af592990a14da5152e35d64599f64284a83efc07deda",
+        "sha256_in_prefix": "0b4ca7416933a3607711af592990a14da5152e35d64599f64284a83efc07deda",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/langsmith-0.1.5.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "a7f10f05b8fd5fdb75cf4054af671bf9d1f470346b36f1b44c609e99145c9a04",
+        "sha256_in_prefix": "a7f10f05b8fd5fdb75cf4054af671bf9d1f470346b36f1b44c609e99145c9a04",
+        "size_in_bytes": 53
+      },
+      {
+        "_path": "site-packages/langsmith/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8cc50740d0b925631022afec0629d941ffe75372b1a1db579ef56d69820d2343",
+        "sha256_in_prefix": "8cc50740d0b925631022afec0629d941ffe75372b1a1db579ef56d69820d2343",
+        "size_in_bytes": 559
+      },
+      {
+        "_path": "site-packages/langsmith/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/langsmith/cli/docker-compose.yaml",
+        "path_type": "hardlink",
+        "sha256": "5b21c48afabeddc79f52a086c7c82d068930319ef0426bb11a57d7d42f66011a",
+        "sha256_in_prefix": "5b21c48afabeddc79f52a086c7c82d068930319ef0426bb11a57d7d42f66011a",
+        "size_in_bytes": 4856
+      },
+      {
+        "_path": "site-packages/langsmith/cli/main.py",
+        "path_type": "hardlink",
+        "sha256": "73ade57524c7e31c02291e720a68c14c27c32771703a2db61c214047cd5b3cb2",
+        "sha256_in_prefix": "73ade57524c7e31c02291e720a68c14c27c32771703a2db61c214047cd5b3cb2",
+        "size_in_bytes": 11931
+      },
+      {
+        "_path": "site-packages/langsmith/cli/users.xml",
+        "path_type": "hardlink",
+        "sha256": "f3d8cb5f864df884941da5e94270906edfbfc7019f0f8d266c2d82252e993e58",
+        "sha256_in_prefix": "f3d8cb5f864df884941da5e94270906edfbfc7019f0f8d266c2d82252e993e58",
+        "size_in_bytes": 351
+      },
+      {
+        "_path": "site-packages/langsmith/client.py",
+        "path_type": "hardlink",
+        "sha256": "7f89013e969a20c87a3991618ea1007cd07ce3e4bd37c4af4b9162f979111b33",
+        "sha256_in_prefix": "7f89013e969a20c87a3991618ea1007cd07ce3e4bd37c4af4b9162f979111b33",
+        "size_in_bytes": 128193
+      },
+      {
+        "_path": "site-packages/langsmith/env/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7cc0029d9fed60ec9a7cb00b7ef6026115ae03d26e1c9bb902e8a8c59af9bb60",
+        "sha256_in_prefix": "7cc0029d9fed60ec9a7cb00b7ef6026115ae03d26e1c9bb902e8a8c59af9bb60",
+        "size_in_bytes": 840
+      },
+      {
+        "_path": "site-packages/langsmith/env/_git.py",
+        "path_type": "hardlink",
+        "sha256": "77c99e240a8410f161f76f6480b6be4edfbd53e7dabd45069801ba23d71aea44",
+        "sha256_in_prefix": "77c99e240a8410f161f76f6480b6be4edfbd53e7dabd45069801ba23d71aea44",
+        "size_in_bytes": 1582
+      },
+      {
+        "_path": "site-packages/langsmith/env/_runtime_env.py",
+        "path_type": "hardlink",
+        "sha256": "48cfbcc8cf94a64c0a74780eec7e2f6426e6952724174853189e815d204d8a04",
+        "sha256_in_prefix": "48cfbcc8cf94a64c0a74780eec7e2f6426e6952724174853189e815d204d8a04",
+        "size_in_bytes": 6548
+      },
+      {
+        "_path": "site-packages/langsmith/evaluation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "31721e79e42a6e80a0c70852b861f2874ae0e06a0cb09f11408255a85f8a63f4",
+        "sha256_in_prefix": "31721e79e42a6e80a0c70852b861f2874ae0e06a0cb09f11408255a85f8a63f4",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "site-packages/langsmith/evaluation/evaluator.py",
+        "path_type": "hardlink",
+        "sha256": "a33f5b732efefc596c1285d79467ae81ce9ae7717090522e0b0dab86eefed553",
+        "sha256_in_prefix": "a33f5b732efefc596c1285d79467ae81ce9ae7717090522e0b0dab86eefed553",
+        "size_in_bytes": 6253
+      },
+      {
+        "_path": "site-packages/langsmith/evaluation/string_evaluator.py",
+        "path_type": "hardlink",
+        "sha256": "6175e34c368e9d51f08aa1fe40e1009197dc048535023930af395f4232b2b718",
+        "sha256_in_prefix": "6175e34c368e9d51f08aa1fe40e1009197dc048535023930af395f4232b2b718",
+        "size_in_bytes": 1583
+      },
+      {
+        "_path": "site-packages/langsmith/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/langsmith/run_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "90b89a56cb6495b97b13679c8374689ef11ccdfcb5b7f30f6ad43a6bd8f4b850",
+        "sha256_in_prefix": "90b89a56cb6495b97b13679c8374689ef11ccdfcb5b7f30f6ad43a6bd8f4b850",
+        "size_in_bytes": 33441
+      },
+      {
+        "_path": "site-packages/langsmith/run_trees.py",
+        "path_type": "hardlink",
+        "sha256": "3c4622c3cd0c05bbfd290a9424827336181aa18de04aac4dca43f6903a099b25",
+        "sha256_in_prefix": "3c4622c3cd0c05bbfd290a9424827336181aa18de04aac4dca43f6903a099b25",
+        "size_in_bytes": 8416
+      },
+      {
+        "_path": "site-packages/langsmith/schemas.py",
+        "path_type": "hardlink",
+        "sha256": "c65ddbf9257c61705b86fccd63880ed0302dd02918a70618fb7b6701e86a05ca",
+        "sha256_in_prefix": "c65ddbf9257c61705b86fccd63880ed0302dd02918a70618fb7b6701e86a05ca",
+        "size_in_bytes": 18416
+      },
+      {
+        "_path": "site-packages/langsmith/utils.py",
+        "path_type": "hardlink",
+        "sha256": "35f425048205f2045f5b89ced6d580e868ceb7392cf67a73a22111bc65c0bc2c",
+        "sha256_in_prefix": "35f425048205f2045f5b89ced6d580e868ceb7392cf67a73a22111bc65c0bc2c",
+        "size_in_bytes": 12511
+      },
+      {
+        "_path": "site-packages/langsmith/wrappers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "53dfa948a9dc86dc5a8779ba7fa9246f3bb60b336dfdac9386fdb5521d407d74",
+        "sha256_in_prefix": "53dfa948a9dc86dc5a8779ba7fa9246f3bb60b336dfdac9386fdb5521d407d74",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "site-packages/langsmith/wrappers/_openai.py",
+        "path_type": "hardlink",
+        "sha256": "cc3a621993155b8f1ef7ca2834fff2391db199943580f4913f552ee65911752e",
+        "sha256_in_prefix": "cc3a621993155b8f1ef7ca2834fff2391db199943580f4913f552ee65911752e",
+        "size_in_bytes": 5500
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/cli/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/cli/__pycache__/main.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/__pycache__/client.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/env/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/env/__pycache__/_git.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/env/__pycache__/_runtime_env.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/evaluation/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/evaluation/__pycache__/evaluator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/evaluation/__pycache__/string_evaluator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/__pycache__/run_helpers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/__pycache__/run_trees.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/__pycache__/schemas.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/wrappers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/langsmith/wrappers/__pycache__/_openai.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/langsmith",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0c06777afacc8c77c370fe61e41f3e1af0187e7931793a670c0975a17b805ff2",
+  "size": 57186,
+  "subdir": "noarch",
+  "timestamp": 1708483890747,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/langsmith-0.1.5-pyhd8ed1ab_0.conda",
+  "version": "0.1.5"
+}

@@ -1,0 +1,13 @@
+prefix=/Users/hemantkumar/anaconda3/envs/myenv
+exec_prefix=/Users/hemantkumar/anaconda3/envs/myenv
+libdir=/Users/hemantkumar/anaconda3/envs/myenv/lib
+sharedlibdir=/Users/hemantkumar/anaconda3/envs/myenv/lib
+includedir=/Users/hemantkumar/anaconda3/envs/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

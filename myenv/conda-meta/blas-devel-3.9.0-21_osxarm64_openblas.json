@@ -1,0 +1,59 @@
+{
+  "build": "21_osxarm64_openblas",
+  "build_number": 21,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libblas 3.9.0 21_osxarm64_openblas",
+    "libcblas 3.9.0 21_osxarm64_openblas",
+    "liblapack 3.9.0 21_osxarm64_openblas",
+    "liblapacke 3.9.0 21_osxarm64_openblas",
+    "openblas 0.3.26.*"
+  ],
+  "extracted_package_dir": "/Users/hemantkumar/anaconda3/pkgs/blas-devel-3.9.0-21_osxarm64_openblas",
+  "files": [
+    "lib/pkgconfig/blas.pc",
+    "lib/pkgconfig/cblas.pc",
+    "lib/pkgconfig/lapack.pc"
+  ],
+  "fn": "blas-devel-3.9.0-21_osxarm64_openblas.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/hemantkumar/anaconda3/pkgs/blas-devel-3.9.0-21_osxarm64_openblas",
+    "type": 1
+  },
+  "md5": "c9ffbce13fadd2bd025e35ad50119ca3",
+  "name": "blas-devel",
+  "package_tarball_full_path": "/Users/hemantkumar/anaconda3/pkgs/blas-devel-3.9.0-21_osxarm64_openblas.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/blas.pc",
+        "path_type": "softlink",
+        "sha256": "967d3f97a3fdc3cd8b2fe79a76dca8d062728cf17da7bf4152bda890e634c747",
+        "size_in_bytes": 1025
+      },
+      {
+        "_path": "lib/pkgconfig/cblas.pc",
+        "path_type": "softlink",
+        "sha256": "967d3f97a3fdc3cd8b2fe79a76dca8d062728cf17da7bf4152bda890e634c747",
+        "size_in_bytes": 1025
+      },
+      {
+        "_path": "lib/pkgconfig/lapack.pc",
+        "path_type": "softlink",
+        "sha256": "967d3f97a3fdc3cd8b2fe79a76dca8d062728cf17da7bf4152bda890e634c747",
+        "size_in_bytes": 1025
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5fb253683f6cd6ec9a5a825dd1179fff467d14055c92a29c6a207c9f5d3af46b",
+  "size": 14840,
+  "subdir": "osx-arm64",
+  "timestamp": 1705980255522,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/blas-devel-3.9.0-21_osxarm64_openblas.conda",
+  "version": "3.9.0"
+}

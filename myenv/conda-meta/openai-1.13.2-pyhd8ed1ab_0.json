@@ -1,0 +1,2572 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "anyio >=3.5.0,<5",
+    "distro >=1.7.0,<2",
+    "httpx >=0.23.0,<1",
+    "pydantic >=1.9.0,<3",
+    "python >=3.7.1",
+    "sniffio",
+    "tqdm >4",
+    "typing-extensions >=4.7,<5"
+  ],
+  "extracted_package_dir": "/Users/hemantkumar/anaconda3/pkgs/openai-1.13.2-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/openai-1.13.2.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/openai-1.13.2.dist-info/METADATA",
+    "lib/python3.9/site-packages/openai-1.13.2.dist-info/RECORD",
+    "lib/python3.9/site-packages/openai-1.13.2.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/openai-1.13.2.dist-info/WHEEL",
+    "lib/python3.9/site-packages/openai-1.13.2.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/openai-1.13.2.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/openai-1.13.2.dist-info/licenses/LICENSE",
+    "lib/python3.9/site-packages/openai/__init__.py",
+    "lib/python3.9/site-packages/openai/__main__.py",
+    "lib/python3.9/site-packages/openai/_base_client.py",
+    "lib/python3.9/site-packages/openai/_client.py",
+    "lib/python3.9/site-packages/openai/_compat.py",
+    "lib/python3.9/site-packages/openai/_constants.py",
+    "lib/python3.9/site-packages/openai/_exceptions.py",
+    "lib/python3.9/site-packages/openai/_extras/__init__.py",
+    "lib/python3.9/site-packages/openai/_extras/_common.py",
+    "lib/python3.9/site-packages/openai/_extras/numpy_proxy.py",
+    "lib/python3.9/site-packages/openai/_extras/pandas_proxy.py",
+    "lib/python3.9/site-packages/openai/_files.py",
+    "lib/python3.9/site-packages/openai/_legacy_response.py",
+    "lib/python3.9/site-packages/openai/_models.py",
+    "lib/python3.9/site-packages/openai/_module_client.py",
+    "lib/python3.9/site-packages/openai/_qs.py",
+    "lib/python3.9/site-packages/openai/_resource.py",
+    "lib/python3.9/site-packages/openai/_response.py",
+    "lib/python3.9/site-packages/openai/_streaming.py",
+    "lib/python3.9/site-packages/openai/_types.py",
+    "lib/python3.9/site-packages/openai/_utils/__init__.py",
+    "lib/python3.9/site-packages/openai/_utils/_logs.py",
+    "lib/python3.9/site-packages/openai/_utils/_proxy.py",
+    "lib/python3.9/site-packages/openai/_utils/_streams.py",
+    "lib/python3.9/site-packages/openai/_utils/_sync.py",
+    "lib/python3.9/site-packages/openai/_utils/_transform.py",
+    "lib/python3.9/site-packages/openai/_utils/_typing.py",
+    "lib/python3.9/site-packages/openai/_utils/_utils.py",
+    "lib/python3.9/site-packages/openai/_version.py",
+    "lib/python3.9/site-packages/openai/cli/__init__.py",
+    "lib/python3.9/site-packages/openai/cli/_api/__init__.py",
+    "lib/python3.9/site-packages/openai/cli/_api/_main.py",
+    "lib/python3.9/site-packages/openai/cli/_api/audio.py",
+    "lib/python3.9/site-packages/openai/cli/_api/chat/__init__.py",
+    "lib/python3.9/site-packages/openai/cli/_api/chat/completions.py",
+    "lib/python3.9/site-packages/openai/cli/_api/completions.py",
+    "lib/python3.9/site-packages/openai/cli/_api/files.py",
+    "lib/python3.9/site-packages/openai/cli/_api/image.py",
+    "lib/python3.9/site-packages/openai/cli/_api/models.py",
+    "lib/python3.9/site-packages/openai/cli/_cli.py",
+    "lib/python3.9/site-packages/openai/cli/_errors.py",
+    "lib/python3.9/site-packages/openai/cli/_models.py",
+    "lib/python3.9/site-packages/openai/cli/_progress.py",
+    "lib/python3.9/site-packages/openai/cli/_tools/__init__.py",
+    "lib/python3.9/site-packages/openai/cli/_tools/_main.py",
+    "lib/python3.9/site-packages/openai/cli/_tools/fine_tunes.py",
+    "lib/python3.9/site-packages/openai/cli/_tools/migrate.py",
+    "lib/python3.9/site-packages/openai/cli/_utils.py",
+    "lib/python3.9/site-packages/openai/lib/.keep",
+    "lib/python3.9/site-packages/openai/lib/_old_api.py",
+    "lib/python3.9/site-packages/openai/lib/_validators.py",
+    "lib/python3.9/site-packages/openai/lib/azure.py",
+    "lib/python3.9/site-packages/openai/pagination.py",
+    "lib/python3.9/site-packages/openai/py.typed",
+    "lib/python3.9/site-packages/openai/resources/__init__.py",
+    "lib/python3.9/site-packages/openai/resources/audio/__init__.py",
+    "lib/python3.9/site-packages/openai/resources/audio/audio.py",
+    "lib/python3.9/site-packages/openai/resources/audio/speech.py",
+    "lib/python3.9/site-packages/openai/resources/audio/transcriptions.py",
+    "lib/python3.9/site-packages/openai/resources/audio/translations.py",
+    "lib/python3.9/site-packages/openai/resources/beta/__init__.py",
+    "lib/python3.9/site-packages/openai/resources/beta/assistants/__init__.py",
+    "lib/python3.9/site-packages/openai/resources/beta/assistants/assistants.py",
+    "lib/python3.9/site-packages/openai/resources/beta/assistants/files.py",
+    "lib/python3.9/site-packages/openai/resources/beta/beta.py",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/__init__.py",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/messages/__init__.py",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/messages/files.py",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/messages/messages.py",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/runs/__init__.py",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/runs/runs.py",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/runs/steps.py",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/threads.py",
+    "lib/python3.9/site-packages/openai/resources/chat/__init__.py",
+    "lib/python3.9/site-packages/openai/resources/chat/chat.py",
+    "lib/python3.9/site-packages/openai/resources/chat/completions.py",
+    "lib/python3.9/site-packages/openai/resources/completions.py",
+    "lib/python3.9/site-packages/openai/resources/embeddings.py",
+    "lib/python3.9/site-packages/openai/resources/files.py",
+    "lib/python3.9/site-packages/openai/resources/fine_tuning/__init__.py",
+    "lib/python3.9/site-packages/openai/resources/fine_tuning/fine_tuning.py",
+    "lib/python3.9/site-packages/openai/resources/fine_tuning/jobs.py",
+    "lib/python3.9/site-packages/openai/resources/images.py",
+    "lib/python3.9/site-packages/openai/resources/models.py",
+    "lib/python3.9/site-packages/openai/resources/moderations.py",
+    "lib/python3.9/site-packages/openai/types/__init__.py",
+    "lib/python3.9/site-packages/openai/types/audio/__init__.py",
+    "lib/python3.9/site-packages/openai/types/audio/speech_create_params.py",
+    "lib/python3.9/site-packages/openai/types/audio/transcription.py",
+    "lib/python3.9/site-packages/openai/types/audio/transcription_create_params.py",
+    "lib/python3.9/site-packages/openai/types/audio/translation.py",
+    "lib/python3.9/site-packages/openai/types/audio/translation_create_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/__init__.py",
+    "lib/python3.9/site-packages/openai/types/beta/assistant.py",
+    "lib/python3.9/site-packages/openai/types/beta/assistant_create_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/assistant_deleted.py",
+    "lib/python3.9/site-packages/openai/types/beta/assistant_list_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/assistant_update_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/assistants/__init__.py",
+    "lib/python3.9/site-packages/openai/types/beta/assistants/assistant_file.py",
+    "lib/python3.9/site-packages/openai/types/beta/assistants/file_create_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/assistants/file_delete_response.py",
+    "lib/python3.9/site-packages/openai/types/beta/assistants/file_list_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/chat/__init__.py",
+    "lib/python3.9/site-packages/openai/types/beta/thread.py",
+    "lib/python3.9/site-packages/openai/types/beta/thread_create_and_run_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/thread_create_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/thread_deleted.py",
+    "lib/python3.9/site-packages/openai/types/beta/thread_update_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/__init__.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/message_content_image_file.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/message_content_text.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/message_create_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/message_list_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/message_update_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/messages/__init__.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/messages/file_list_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/messages/message_file.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/required_action_function_tool_call.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/run.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/run_create_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/run_list_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/run_submit_tool_outputs_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/run_update_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/__init__.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/code_tool_call.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/function_tool_call.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/message_creation_step_details.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/retrieval_tool_call.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/run_step.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/step_list_params.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/tool_calls_step_details.py",
+    "lib/python3.9/site-packages/openai/types/beta/threads/thread_message.py",
+    "lib/python3.9/site-packages/openai/types/chat/__init__.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_assistant_message_param.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_chunk.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_content_part_image_param.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_content_part_param.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_content_part_text_param.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_function_call_option_param.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_function_message_param.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_message.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_message_param.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_message_tool_call.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_message_tool_call_param.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_named_tool_choice_param.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_role.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_system_message_param.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_token_logprob.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_tool_choice_option_param.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_tool_message_param.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_tool_param.py",
+    "lib/python3.9/site-packages/openai/types/chat/chat_completion_user_message_param.py",
+    "lib/python3.9/site-packages/openai/types/chat/completion_create_params.py",
+    "lib/python3.9/site-packages/openai/types/completion.py",
+    "lib/python3.9/site-packages/openai/types/completion_choice.py",
+    "lib/python3.9/site-packages/openai/types/completion_create_params.py",
+    "lib/python3.9/site-packages/openai/types/completion_usage.py",
+    "lib/python3.9/site-packages/openai/types/create_embedding_response.py",
+    "lib/python3.9/site-packages/openai/types/embedding.py",
+    "lib/python3.9/site-packages/openai/types/embedding_create_params.py",
+    "lib/python3.9/site-packages/openai/types/file_content.py",
+    "lib/python3.9/site-packages/openai/types/file_create_params.py",
+    "lib/python3.9/site-packages/openai/types/file_deleted.py",
+    "lib/python3.9/site-packages/openai/types/file_list_params.py",
+    "lib/python3.9/site-packages/openai/types/file_object.py",
+    "lib/python3.9/site-packages/openai/types/fine_tuning/__init__.py",
+    "lib/python3.9/site-packages/openai/types/fine_tuning/fine_tuning_job.py",
+    "lib/python3.9/site-packages/openai/types/fine_tuning/fine_tuning_job_event.py",
+    "lib/python3.9/site-packages/openai/types/fine_tuning/job_create_params.py",
+    "lib/python3.9/site-packages/openai/types/fine_tuning/job_list_events_params.py",
+    "lib/python3.9/site-packages/openai/types/fine_tuning/job_list_params.py",
+    "lib/python3.9/site-packages/openai/types/image.py",
+    "lib/python3.9/site-packages/openai/types/image_create_variation_params.py",
+    "lib/python3.9/site-packages/openai/types/image_edit_params.py",
+    "lib/python3.9/site-packages/openai/types/image_generate_params.py",
+    "lib/python3.9/site-packages/openai/types/images_response.py",
+    "lib/python3.9/site-packages/openai/types/model.py",
+    "lib/python3.9/site-packages/openai/types/model_deleted.py",
+    "lib/python3.9/site-packages/openai/types/moderation.py",
+    "lib/python3.9/site-packages/openai/types/moderation_create_params.py",
+    "lib/python3.9/site-packages/openai/types/moderation_create_response.py",
+    "lib/python3.9/site-packages/openai/types/shared/__init__.py",
+    "lib/python3.9/site-packages/openai/types/shared/function_definition.py",
+    "lib/python3.9/site-packages/openai/types/shared/function_parameters.py",
+    "lib/python3.9/site-packages/openai/types/shared_params/__init__.py",
+    "lib/python3.9/site-packages/openai/types/shared_params/function_definition.py",
+    "lib/python3.9/site-packages/openai/types/shared_params/function_parameters.py",
+    "lib/python3.9/site-packages/openai/version.py",
+    "lib/python3.9/site-packages/openai/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/__main__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_base_client.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_client.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_compat.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_constants.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/_extras/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/_extras/__pycache__/_common.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/_extras/__pycache__/numpy_proxy.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/_extras/__pycache__/pandas_proxy.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_files.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_legacy_response.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_models.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_module_client.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_qs.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_resource.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_response.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_streaming.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_types.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/_utils/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/_utils/__pycache__/_logs.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/_utils/__pycache__/_proxy.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/_utils/__pycache__/_streams.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/_utils/__pycache__/_sync.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/_utils/__pycache__/_transform.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/_utils/__pycache__/_typing.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/_utils/__pycache__/_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/_api/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/_api/__pycache__/_main.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/_api/__pycache__/audio.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/_api/chat/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/_api/chat/__pycache__/completions.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/_api/__pycache__/completions.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/_api/__pycache__/files.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/_api/__pycache__/image.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/_api/__pycache__/models.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/__pycache__/_cli.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/__pycache__/_errors.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/__pycache__/_models.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/__pycache__/_progress.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/_tools/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/_tools/__pycache__/_main.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/_tools/__pycache__/fine_tunes.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/_tools/__pycache__/migrate.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/cli/__pycache__/_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/lib/__pycache__/_old_api.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/lib/__pycache__/_validators.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/lib/__pycache__/azure.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/pagination.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/audio/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/audio/__pycache__/audio.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/audio/__pycache__/speech.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/audio/__pycache__/transcriptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/audio/__pycache__/translations.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/beta/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/beta/assistants/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/beta/assistants/__pycache__/assistants.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/beta/assistants/__pycache__/files.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/beta/__pycache__/beta.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/messages/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/messages/__pycache__/files.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/messages/__pycache__/messages.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/runs/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/runs/__pycache__/runs.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/runs/__pycache__/steps.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/beta/threads/__pycache__/threads.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/chat/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/chat/__pycache__/chat.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/chat/__pycache__/completions.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/__pycache__/completions.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/__pycache__/embeddings.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/__pycache__/files.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/fine_tuning/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/fine_tuning/__pycache__/fine_tuning.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/fine_tuning/__pycache__/jobs.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/__pycache__/images.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/__pycache__/models.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/resources/__pycache__/moderations.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/audio/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/audio/__pycache__/speech_create_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/audio/__pycache__/transcription.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/audio/__pycache__/transcription_create_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/audio/__pycache__/translation.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/audio/__pycache__/translation_create_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/__pycache__/assistant.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/__pycache__/assistant_create_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/__pycache__/assistant_deleted.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/__pycache__/assistant_list_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/__pycache__/assistant_update_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/assistants/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/assistants/__pycache__/assistant_file.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/assistants/__pycache__/file_create_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/assistants/__pycache__/file_delete_response.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/assistants/__pycache__/file_list_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/chat/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/__pycache__/thread.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/__pycache__/thread_create_and_run_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/__pycache__/thread_create_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/__pycache__/thread_deleted.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/__pycache__/thread_update_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/message_content_image_file.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/message_content_text.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/message_create_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/message_list_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/message_update_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/messages/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/messages/__pycache__/file_list_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/messages/__pycache__/message_file.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/required_action_function_tool_call.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/run.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/run_create_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/run_list_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/run_submit_tool_outputs_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/run_update_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/code_tool_call.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/function_tool_call.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/message_creation_step_details.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/retrieval_tool_call.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/run_step.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/step_list_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/tool_calls_step_details.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/thread_message.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_assistant_message_param.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_chunk.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_content_part_image_param.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_content_part_param.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_content_part_text_param.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_function_call_option_param.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_function_message_param.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_message.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_message_param.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_message_tool_call.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_message_tool_call_param.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_named_tool_choice_param.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_role.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_system_message_param.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_token_logprob.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_tool_choice_option_param.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_tool_message_param.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_tool_param.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_user_message_param.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/chat/__pycache__/completion_create_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/completion.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/completion_choice.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/completion_create_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/completion_usage.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/create_embedding_response.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/embedding.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/embedding_create_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/file_content.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/file_create_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/file_deleted.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/file_list_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/file_object.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/fine_tuning/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/fine_tuning/__pycache__/fine_tuning_job.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/fine_tuning/__pycache__/fine_tuning_job_event.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/fine_tuning/__pycache__/job_create_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/fine_tuning/__pycache__/job_list_events_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/fine_tuning/__pycache__/job_list_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/image.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/image_create_variation_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/image_edit_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/image_generate_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/images_response.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/model.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/model_deleted.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/moderation.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/moderation_create_params.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/__pycache__/moderation_create_response.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/shared/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/shared/__pycache__/function_definition.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/shared/__pycache__/function_parameters.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/shared_params/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/shared_params/__pycache__/function_definition.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/types/shared_params/__pycache__/function_parameters.cpython-39.pyc",
+    "lib/python3.9/site-packages/openai/__pycache__/version.cpython-39.pyc",
+    "bin/openai"
+  ],
+  "fn": "openai-1.13.2-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/hemantkumar/anaconda3/pkgs/openai-1.13.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "ac2daa81870f3dfcddef078c858e5ec2",
+  "name": "openai",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/hemantkumar/anaconda3/pkgs/openai-1.13.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/openai-1.13.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/openai-1.13.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "84fb4fbe11c065f601f35b9f455e6ac0a9be41df7ef0e94e50909d51057db380",
+        "sha256_in_prefix": "84fb4fbe11c065f601f35b9f455e6ac0a9be41df7ef0e94e50909d51057db380",
+        "size_in_bytes": 18777
+      },
+      {
+        "_path": "site-packages/openai-1.13.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "df289c88e119415d8b5ca5214ea69666d37ba1afae9e5a7110228b67ae1e85c7",
+        "sha256_in_prefix": "df289c88e119415d8b5ca5214ea69666d37ba1afae9e5a7110228b67ae1e85c7",
+        "size_in_bytes": 30883
+      },
+      {
+        "_path": "site-packages/openai-1.13.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/openai-1.13.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4c93e729db6b4ae7bbc59fc0546929f585dcbc3ae86ec8c176cd5dbb7371e9d7",
+        "sha256_in_prefix": "4c93e729db6b4ae7bbc59fc0546929f585dcbc3ae86ec8c176cd5dbb7371e9d7",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/openai-1.13.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "bf874a6b19c8f5f3e68e0ca4cfad40d74c60a4dd878921fb7030af500fec2c84",
+        "sha256_in_prefix": "bf874a6b19c8f5f3e68e0ca4cfad40d74c60a4dd878921fb7030af500fec2c84",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/openai-1.13.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "9006214049b3889c2c2ace6b6980083af2762d699bcf976e9445cecec63bd6ba",
+        "sha256_in_prefix": "9006214049b3889c2c2ace6b6980083af2762d699bcf976e9445cecec63bd6ba",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "site-packages/openai-1.13.2.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "77433a1c38d0efab5fdb9e573e5006908a0408c7baf3c317706118b0e17249f2",
+        "sha256_in_prefix": "77433a1c38d0efab5fdb9e573e5006908a0408c7baf3c317706118b0e17249f2",
+        "size_in_bytes": 11336
+      },
+      {
+        "_path": "site-packages/openai/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "94977144f791ef4ef75769153eca38d00ad968257caa21951ec4063d14119d04",
+        "sha256_in_prefix": "94977144f791ef4ef75769153eca38d00ad968257caa21951ec4063d14119d04",
+        "size_in_bytes": 9140
+      },
+      {
+        "_path": "site-packages/openai/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+        "sha256_in_prefix": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+        "size_in_bytes": 30
+      },
+      {
+        "_path": "site-packages/openai/_base_client.py",
+        "path_type": "hardlink",
+        "sha256": "02c08729b1e19c7cc923689669cc29d945b83e44111e6c5598d6dacfacc6229c",
+        "sha256_in_prefix": "02c08729b1e19c7cc923689669cc29d945b83e44111e6c5598d6dacfacc6229c",
+        "size_in_bytes": 62655
+      },
+      {
+        "_path": "site-packages/openai/_client.py",
+        "path_type": "hardlink",
+        "sha256": "cb98d149d1a5c94de91137ae7c65a40fc26ccbc3e4abbd0bb8c43d90da296e34",
+        "sha256_in_prefix": "cb98d149d1a5c94de91137ae7c65a40fc26ccbc3e4abbd0bb8c43d90da296e34",
+        "size_in_bytes": 20141
+      },
+      {
+        "_path": "site-packages/openai/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "9b423485aa8566e5717799b6dbbffc9cd9af035b1a5f2b8d27b06389d5ff3d31",
+        "sha256_in_prefix": "9b423485aa8566e5717799b6dbbffc9cd9af035b1a5f2b8d27b06389d5ff3d31",
+        "size_in_bytes": 6389
+      },
+      {
+        "_path": "site-packages/openai/_constants.py",
+        "path_type": "hardlink",
+        "sha256": "611394b24267cbdc007f01a0ce60998f52536e7b44afef9e58e6538ef5050fb7",
+        "sha256_in_prefix": "611394b24267cbdc007f01a0ce60998f52536e7b44afef9e58e6538ef5050fb7",
+        "size_in_bytes": 423
+      },
+      {
+        "_path": "site-packages/openai/_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "ad6b2b2378c67ac73df8c91398232b7e0137c4bfdec3495c98b1e815ff98e67d",
+        "sha256_in_prefix": "ad6b2b2378c67ac73df8c91398232b7e0137c4bfdec3495c98b1e815ff98e67d",
+        "size_in_bytes": 3614
+      },
+      {
+        "_path": "site-packages/openai/_extras/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2d96c92d9eda14745c23bba2638fb01504dd329f8117a14447540c84a5459169",
+        "sha256_in_prefix": "2d96c92d9eda14745c23bba2638fb01504dd329f8117a14447540c84a5459169",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/openai/_extras/_common.py",
+        "path_type": "hardlink",
+        "sha256": "3565ad81b749b0ede140643169719f564d0b8de204e40159f154bfefde6184c7",
+        "sha256_in_prefix": "3565ad81b749b0ede140643169719f564d0b8de204e40159f154bfefde6184c7",
+        "size_in_bytes": 364
+      },
+      {
+        "_path": "site-packages/openai/_extras/numpy_proxy.py",
+        "path_type": "hardlink",
+        "sha256": "8706576bf24100f0f9b5a461a2bd6d1b12b6ea0e4868ae7625c9500e5f9d932d",
+        "sha256_in_prefix": "8706576bf24100f0f9b5a461a2bd6d1b12b6ea0e4868ae7625c9500e5f9d932d",
+        "size_in_bytes": 799
+      },
+      {
+        "_path": "site-packages/openai/_extras/pandas_proxy.py",
+        "path_type": "hardlink",
+        "sha256": "34212dd43ab073fd07f3961db163c313794f0c9b589c14fc1be80913f0427847",
+        "sha256_in_prefix": "34212dd43ab073fd07f3961db163c313794f0c9b589c14fc1be80913f0427847",
+        "size_in_bytes": 637
+      },
+      {
+        "_path": "site-packages/openai/_files.py",
+        "path_type": "hardlink",
+        "sha256": "3b0d6e06922bd1b2e7207c6d37e981e0bb1ae2e560354eb02d53a482a8bd1b37",
+        "sha256_in_prefix": "3b0d6e06922bd1b2e7207c6d37e981e0bb1ae2e560354eb02d53a482a8bd1b37",
+        "size_in_bytes": 3470
+      },
+      {
+        "_path": "site-packages/openai/_legacy_response.py",
+        "path_type": "hardlink",
+        "sha256": "1bbab1975a034761456ed4ac9ae699ce5b3c5eea64b7698052ae5be3793d6043",
+        "sha256_in_prefix": "1bbab1975a034761456ed4ac9ae699ce5b3c5eea64b7698052ae5be3793d6043",
+        "size_in_bytes": 14903
+      },
+      {
+        "_path": "site-packages/openai/_models.py",
+        "path_type": "hardlink",
+        "sha256": "c3715271bbd6de2a5cf780f5bf4c4a9ba93160db656ebbc9c517c8475f0ec595",
+        "sha256_in_prefix": "c3715271bbd6de2a5cf780f5bf4c4a9ba93160db656ebbc9c517c8475f0ec595",
+        "size_in_bytes": 16410
+      },
+      {
+        "_path": "site-packages/openai/_module_client.py",
+        "path_type": "hardlink",
+        "sha256": "0d3f613581e267853389b200e31285dc15e61ebba34cb3b88fe8cb16395f2572",
+        "sha256_in_prefix": "0d3f613581e267853389b200e31285dc15e61ebba34cb3b88fe8cb16395f2572",
+        "size_in_bytes": 2280
+      },
+      {
+        "_path": "site-packages/openai/_qs.py",
+        "path_type": "hardlink",
+        "sha256": "00e912cf8ac7b4ae18237654fe4cde6bece9c01520118f169e21a64cfc848a67",
+        "sha256_in_prefix": "00e912cf8ac7b4ae18237654fe4cde6bece9c01520118f169e21a64cfc848a67",
+        "size_in_bytes": 4846
+      },
+      {
+        "_path": "site-packages/openai/_resource.py",
+        "path_type": "hardlink",
+        "sha256": "17fa5753ce8236ffc51413e35bb3f072be303a4701684124a1e40e1abc0b9576",
+        "sha256_in_prefix": "17fa5753ce8236ffc51413e35bb3f072be303a4701684124a1e40e1abc0b9576",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "site-packages/openai/_response.py",
+        "path_type": "hardlink",
+        "sha256": "e46ee7fe4add8f7e56e8e068e95939bfc378d34918a2d98d3fd749d106ecb716",
+        "sha256_in_prefix": "e46ee7fe4add8f7e56e8e068e95939bfc378d34918a2d98d3fd749d106ecb716",
+        "size_in_bytes": 27957
+      },
+      {
+        "_path": "site-packages/openai/_streaming.py",
+        "path_type": "hardlink",
+        "sha256": "f16280c048d9dac24f69c520ed8d1214c9758f80e5f528633d62d6072216f6d0",
+        "sha256_in_prefix": "f16280c048d9dac24f69c520ed8d1214c9758f80e5f528633d62d6072216f6d0",
+        "size_in_bytes": 9034
+      },
+      {
+        "_path": "site-packages/openai/_types.py",
+        "path_type": "hardlink",
+        "sha256": "21145ce6209b5bc5ef763ab0f436fc27478183009151340ba6861daec9aad71a",
+        "sha256_in_prefix": "21145ce6209b5bc5ef763ab0f436fc27478183009151340ba6861daec9aad71a",
+        "size_in_bytes": 6123
+      },
+      {
+        "_path": "site-packages/openai/_utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8b460b13d6957ce1c779811fe0ba423c3ca2b0ea7b55fa6563d6d83f04533063",
+        "sha256_in_prefix": "8b460b13d6957ce1c779811fe0ba423c3ca2b0ea7b55fa6563d6d83f04533063",
+        "size_in_bytes": 1727
+      },
+      {
+        "_path": "site-packages/openai/_utils/_logs.py",
+        "path_type": "hardlink",
+        "sha256": "b0503f35e8ee34e6d31866dfb170b4dc8dfc9ab4fd1e3b20009c7877718fd289",
+        "sha256_in_prefix": "b0503f35e8ee34e6d31866dfb170b4dc8dfc9ab4fd1e3b20009c7877718fd289",
+        "size_in_bytes": 774
+      },
+      {
+        "_path": "site-packages/openai/_utils/_proxy.py",
+        "path_type": "hardlink",
+        "sha256": "d6e6a4d4c010c710f9265a8d8b829281c44547f8e9373b5983626f3b0818d455",
+        "sha256_in_prefix": "d6e6a4d4c010c710f9265a8d8b829281c44547f8e9373b5983626f3b0818d455",
+        "size_in_bytes": 1890
+      },
+      {
+        "_path": "site-packages/openai/_utils/_streams.py",
+        "path_type": "hardlink",
+        "sha256": "48c0bdd1d88515e729120ff38034556dd4778521088155628f8b5a0fe9e830b3",
+        "sha256_in_prefix": "48c0bdd1d88515e729120ff38034556dd4778521088155628f8b5a0fe9e830b3",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "site-packages/openai/_utils/_sync.py",
+        "path_type": "hardlink",
+        "sha256": "f3310461f8abf22094700305b5677c7038bc35511a6689dce2c7cb018af5ea2a",
+        "sha256_in_prefix": "f3310461f8abf22094700305b5677c7038bc35511a6689dce2c7cb018af5ea2a",
+        "size_in_bytes": 2269
+      },
+      {
+        "_path": "site-packages/openai/_utils/_transform.py",
+        "path_type": "hardlink",
+        "sha256": "357448b51589e710f68e6d7544f26ca75e5c48d044e26e63c874726ddc190d1d",
+        "sha256_in_prefix": "357448b51589e710f68e6d7544f26ca75e5c48d044e26e63c874726ddc190d1d",
+        "size_in_bytes": 7223
+      },
+      {
+        "_path": "site-packages/openai/_utils/_typing.py",
+        "path_type": "hardlink",
+        "sha256": "b456e4b5da5d1c24258b0cc6b16cac827d0fe47d0945d6a091975bfcb7a01a46",
+        "sha256_in_prefix": "b456e4b5da5d1c24258b0cc6b16cac827d0fe47d0945d6a091975bfcb7a01a46",
+        "size_in_bytes": 3838
+      },
+      {
+        "_path": "site-packages/openai/_utils/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "7b9965a20f955c692eab68a59a423ade33994f56de93801dbf66a2b3262e9b62",
+        "sha256_in_prefix": "7b9965a20f955c692eab68a59a423ade33994f56de93801dbf66a2b3262e9b62",
+        "size_in_bytes": 11105
+      },
+      {
+        "_path": "site-packages/openai/_version.py",
+        "path_type": "hardlink",
+        "sha256": "960c85578f7bfcc299857dbb27a72f01b52922012abfa4fa2df6c8711caccf8b",
+        "sha256_in_prefix": "960c85578f7bfcc299857dbb27a72f01b52922012abfa4fa2df6c8711caccf8b",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "site-packages/openai/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b281a0b6aca89a075d97dd87d0a251a87a86b9a5c86a086af3aaa4ccbb95a7b5",
+        "sha256_in_prefix": "b281a0b6aca89a075d97dd87d0a251a87a86b9a5c86a086af3aaa4ccbb95a7b5",
+        "size_in_bytes": 31
+      },
+      {
+        "_path": "site-packages/openai/cli/_api/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "723f76319abef7fd4f40cf00e13415b2a2a7e667130c01b11e5949d14bc938f1",
+        "sha256_in_prefix": "723f76319abef7fd4f40cf00e13415b2a2a7e667130c01b11e5949d14bc938f1",
+        "size_in_bytes": 58
+      },
+      {
+        "_path": "site-packages/openai/cli/_api/_main.py",
+        "path_type": "hardlink",
+        "sha256": "e72c9f2d446a08468037c07ad601daa9501a620b726fd5ead27710dcfd81021d",
+        "sha256_in_prefix": "e72c9f2d446a08468037c07ad601daa9501a620b726fd5ead27710dcfd81021d",
+        "size_in_bytes": 451
+      },
+      {
+        "_path": "site-packages/openai/cli/_api/audio.py",
+        "path_type": "hardlink",
+        "sha256": "1d90d34594fea994ccb20ed63a6f9d8c24257fcef86926b797146f346dbbc0b3",
+        "sha256_in_prefix": "1d90d34594fea994ccb20ed63a6f9d8c24257fcef86926b797146f346dbbc0b3",
+        "size_in_bytes": 3347
+      },
+      {
+        "_path": "site-packages/openai/cli/_api/chat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "321154407f45e900ad6cf3256ec53f0d64ddef07390d2099ed6cb71411958a3d",
+        "sha256_in_prefix": "321154407f45e900ad6cf3256ec53f0d64ddef07390d2099ed6cb71411958a3d",
+        "size_in_bytes": 300
+      },
+      {
+        "_path": "site-packages/openai/cli/_api/chat/completions.py",
+        "path_type": "hardlink",
+        "sha256": "f59b5eb72cfbae6d203f948e3d611ca731499c92ae204422b7adbabceab8d9b1",
+        "sha256_in_prefix": "f59b5eb72cfbae6d203f948e3d611ca731499c92ae204422b7adbabceab8d9b1",
+        "size_in_bytes": 5363
+      },
+      {
+        "_path": "site-packages/openai/cli/_api/completions.py",
+        "path_type": "hardlink",
+        "sha256": "cac3a69db5e9173dd507937fe5448f74e6e261ec3adaf127eab32d345c132464",
+        "sha256_in_prefix": "cac3a69db5e9173dd507937fe5448f74e6e261ec3adaf127eab32d345c132464",
+        "size_in_bytes": 6412
+      },
+      {
+        "_path": "site-packages/openai/cli/_api/files.py",
+        "path_type": "hardlink",
+        "sha256": "ea7297167b02d901346c69d55001bb0532d2bba2b5fcc84f1346490029b38116",
+        "sha256_in_prefix": "ea7297167b02d901346c69d55001bb0532d2bba2b5fcc84f1346490029b38116",
+        "size_in_bytes": 2345
+      },
+      {
+        "_path": "site-packages/openai/cli/_api/image.py",
+        "path_type": "hardlink",
+        "sha256": "a2f044c5d9fca142bd2263a9b0f69f7ac7c096671fb4b3f6a7b777ee1714b4a5",
+        "sha256_in_prefix": "a2f044c5d9fca142bd2263a9b0f69f7ac7c096671fb4b3f6a7b777ee1714b4a5",
+        "size_in_bytes": 5062
+      },
+      {
+        "_path": "site-packages/openai/cli/_api/models.py",
+        "path_type": "hardlink",
+        "sha256": "a469881994e88f7ada186a4abcf4aafc455447e76a838562d0f35f647f7c0f61",
+        "sha256_in_prefix": "a469881994e88f7ada186a4abcf4aafc455447e76a838562d0f35f647f7c0f61",
+        "size_in_bytes": 1295
+      },
+      {
+        "_path": "site-packages/openai/cli/_cli.py",
+        "path_type": "hardlink",
+        "sha256": "5b1a939e1555b5fcd7d33ee15797dcbddde192285a520c0e5a95cec32092e057",
+        "sha256_in_prefix": "5b1a939e1555b5fcd7d33ee15797dcbddde192285a520c0e5a95cec32092e057",
+        "size_in_bytes": 6743
+      },
+      {
+        "_path": "site-packages/openai/cli/_errors.py",
+        "path_type": "hardlink",
+        "sha256": "ec1605d8aa7f2fac8ab190cd760fa02bbd4531508d8e1aee9df555821e19cb43",
+        "sha256_in_prefix": "ec1605d8aa7f2fac8ab190cd760fa02bbd4531508d8e1aee9df555821e19cb43",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "site-packages/openai/cli/_models.py",
+        "path_type": "hardlink",
+        "sha256": "b60b257631b6d7a2a9c20019e694b4b15d36150bce343254d84940e240828885",
+        "sha256_in_prefix": "b60b257631b6d7a2a9c20019e694b4b15d36150bce343254d84940e240828885",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "site-packages/openai/cli/_progress.py",
+        "path_type": "hardlink",
+        "sha256": "68c2ecb14f6387e2e8a91607dfad3c8cda2ceebeaf64a9c74d1947c45ce7cefe",
+        "sha256_in_prefix": "68c2ecb14f6387e2e8a91607dfad3c8cda2ceebeaf64a9c74d1947c45ce7cefe",
+        "size_in_bytes": 1406
+      },
+      {
+        "_path": "site-packages/openai/cli/_tools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "723f76319abef7fd4f40cf00e13415b2a2a7e667130c01b11e5949d14bc938f1",
+        "sha256_in_prefix": "723f76319abef7fd4f40cf00e13415b2a2a7e667130c01b11e5949d14bc938f1",
+        "size_in_bytes": 58
+      },
+      {
+        "_path": "site-packages/openai/cli/_tools/_main.py",
+        "path_type": "hardlink",
+        "sha256": "a5a9231171d11ea6254e697e47157b7cdad1b515f39990629e83e2d40262a456",
+        "sha256_in_prefix": "a5a9231171d11ea6254e697e47157b7cdad1b515f39990629e83e2d40262a456",
+        "size_in_bytes": 467
+      },
+      {
+        "_path": "site-packages/openai/cli/_tools/fine_tunes.py",
+        "path_type": "hardlink",
+        "sha256": "45081833389f93a4bb6352352ba86ea9ca364319976bb8155251e5e92aca4d25",
+        "sha256_in_prefix": "45081833389f93a4bb6352352ba86ea9ca364319976bb8155251e5e92aca4d25",
+        "size_in_bytes": 1543
+      },
+      {
+        "_path": "site-packages/openai/cli/_tools/migrate.py",
+        "path_type": "hardlink",
+        "sha256": "3ea2604feecaac28ae7b95a3fb561a5df28da9c1851d79eb0bd114e1e1d7dfd7",
+        "sha256_in_prefix": "3ea2604feecaac28ae7b95a3fb561a5df28da9c1851d79eb0bd114e1e1d7dfd7",
+        "size_in_bytes": 4895
+      },
+      {
+        "_path": "site-packages/openai/cli/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "a224dcf4c9f1421ff3c406753881cf9280e90a5974345f598247451f3e13f81b",
+        "sha256_in_prefix": "a224dcf4c9f1421ff3c406753881cf9280e90a5974345f598247451f3e13f81b",
+        "size_in_bytes": 848
+      },
+      {
+        "_path": "site-packages/openai/lib/.keep",
+        "path_type": "hardlink",
+        "sha256": "c2e36bcfee525e8de325a24e260cf8bc51cce35607fe0db4179711428d2f2deb",
+        "sha256_in_prefix": "c2e36bcfee525e8de325a24e260cf8bc51cce35607fe0db4179711428d2f2deb",
+        "size_in_bytes": 224
+      },
+      {
+        "_path": "site-packages/openai/lib/_old_api.py",
+        "path_type": "hardlink",
+        "sha256": "5d99d706b10ab9377bd22262ae3e66196df97d9a2aaee2686db053aba6ef835d",
+        "sha256_in_prefix": "5d99d706b10ab9377bd22262ae3e66196df97d9a2aaee2686db053aba6ef835d",
+        "size_in_bytes": 1947
+      },
+      {
+        "_path": "site-packages/openai/lib/_validators.py",
+        "path_type": "hardlink",
+        "sha256": "8e754b1f5988375cee9ae757cb1bf5523c9726977b14b214ef5f70891201b9eb",
+        "sha256_in_prefix": "8e754b1f5988375cee9ae757cb1bf5523c9726977b14b214ef5f70891201b9eb",
+        "size_in_bytes": 35189
+      },
+      {
+        "_path": "site-packages/openai/lib/azure.py",
+        "path_type": "hardlink",
+        "sha256": "3cd2d023dab475fab5b8e336abad5bf62b21dd6c307e6f6979d3d8929220b8eb",
+        "sha256_in_prefix": "3cd2d023dab475fab5b8e336abad5bf62b21dd6c307e6f6979d3d8929220b8eb",
+        "size_in_bytes": 20949
+      },
+      {
+        "_path": "site-packages/openai/pagination.py",
+        "path_type": "hardlink",
+        "sha256": "b7a89b11892e02e781610b6dc6ade15131ab825491401262dae3f48bef9f6616",
+        "sha256_in_prefix": "b7a89b11892e02e781610b6dc6ade15131ab825491401262dae3f48bef9f6616",
+        "size_in_bytes": 2727
+      },
+      {
+        "_path": "site-packages/openai/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/openai/resources/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b89c370a96811f63254df36f51e7e143e5e3f53f99027400a1246ee0b4f220db",
+        "sha256_in_prefix": "b89c370a96811f63254df36f51e7e143e5e3f53f99027400a1246ee0b4f220db",
+        "size_in_bytes": 3766
+      },
+      {
+        "_path": "site-packages/openai/resources/audio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1f92010fa0b792fa1c228f7ae1d05feb344f1da7bfd16b512696c468c35421a5",
+        "sha256_in_prefix": "1f92010fa0b792fa1c228f7ae1d05feb344f1da7bfd16b512696c468c35421a5",
+        "size_in_bytes": 1654
+      },
+      {
+        "_path": "site-packages/openai/resources/audio/audio.py",
+        "path_type": "hardlink",
+        "sha256": "b8bd0736752c72f47f1e4e12c522d3d2f33625fd15329a4b7d04755fcdc24834",
+        "sha256_in_prefix": "b8bd0736752c72f47f1e4e12c522d3d2f33625fd15329a4b7d04755fcdc24834",
+        "size_in_bytes": 4448
+      },
+      {
+        "_path": "site-packages/openai/resources/audio/speech.py",
+        "path_type": "hardlink",
+        "sha256": "ff07b7bf15fae6a8f603598c83d3cc13ebc9fc147fdfa8e9f0d2b83d66105d02",
+        "sha256_in_prefix": "ff07b7bf15fae6a8f603598c83d3cc13ebc9fc147fdfa8e9f0d2b83d66105d02",
+        "size_in_bytes": 7711
+      },
+      {
+        "_path": "site-packages/openai/resources/audio/transcriptions.py",
+        "path_type": "hardlink",
+        "sha256": "6ece91917e2a891dc2b9005c86c1958f78262d971baac7a689f64cba764b3cf6",
+        "sha256_in_prefix": "6ece91917e2a891dc2b9005c86c1958f78262d971baac7a689f64cba764b3cf6",
+        "size_in_bytes": 10601
+      },
+      {
+        "_path": "site-packages/openai/resources/audio/translations.py",
+        "path_type": "hardlink",
+        "sha256": "1ea6ab37c3544f5bcad4fc46c9106ed8b07484242277bb4a45c31c8f30c6d036",
+        "sha256_in_prefix": "1ea6ab37c3544f5bcad4fc46c9106ed8b07484242277bb4a45c31c8f30c6d036",
+        "size_in_bytes": 8805
+      },
+      {
+        "_path": "site-packages/openai/resources/beta/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5dd30a3a8126fbf818b82008fa9378b48750a9603ffea0dbe9d1a179560d0305",
+        "sha256_in_prefix": "5dd30a3a8126fbf818b82008fa9378b48750a9603ffea0dbe9d1a179560d0305",
+        "size_in_bytes": 1170
+      },
+      {
+        "_path": "site-packages/openai/resources/beta/assistants/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9cb72eda380596b8c1828a6f599f476c704b8d9194a7ed2bac25366f3099e1c1",
+        "sha256_in_prefix": "9cb72eda380596b8c1828a6f599f476c704b8d9194a7ed2bac25366f3099e1c1",
+        "size_in_bytes": 816
+      },
+      {
+        "_path": "site-packages/openai/resources/beta/assistants/assistants.py",
+        "path_type": "hardlink",
+        "sha256": "ba4722aa8dddb9c5b03c6824d1821e15dc00af465c8a77d14ce4b5075a81c68e",
+        "sha256_in_prefix": "ba4722aa8dddb9c5b03c6824d1821e15dc00af465c8a77d14ce4b5075a81c68e",
+        "size_in_bytes": 30627
+      },
+      {
+        "_path": "site-packages/openai/resources/beta/assistants/files.py",
+        "path_type": "hardlink",
+        "sha256": "81c4a6075527fddd5206e2a9ffc439f3d83f66ca765d2f064e7683cb35b0f211",
+        "sha256_in_prefix": "81c4a6075527fddd5206e2a9ffc439f3d83f66ca765d2f064e7683cb35b0f211",
+        "size_in_bytes": 19432
+      },
+      {
+        "_path": "site-packages/openai/resources/beta/beta.py",
+        "path_type": "hardlink",
+        "sha256": "6b48c620c3e8e2e0dc716c13ac7d0c886ff09502c340d56afce1ebf51e97825f",
+        "sha256_in_prefix": "6b48c620c3e8e2e0dc716c13ac7d0c886ff09502c340d56afce1ebf51e97825f",
+        "size_in_bytes": 3340
+      },
+      {
+        "_path": "site-packages/openai/resources/beta/threads/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4ada9c7e8a56963cd518d90d2b7fab2f57f8165284048eb7f67173aaf219d466",
+        "sha256_in_prefix": "4ada9c7e8a56963cd518d90d2b7fab2f57f8165284048eb7f67173aaf219d466",
+        "size_in_bytes": 1144
+      },
+      {
+        "_path": "site-packages/openai/resources/beta/threads/messages/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "697df89dfdb4fdf86926450633f840c950a7ed8d498d23df5849e8ef821d81a0",
+        "sha256_in_prefix": "697df89dfdb4fdf86926450633f840c950a7ed8d498d23df5849e8ef821d81a0",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "site-packages/openai/resources/beta/threads/messages/files.py",
+        "path_type": "hardlink",
+        "sha256": "e7bac27c13efa5ccfca8ed3db9c741086582915e6ca5af306fdbc8a4357e8c39",
+        "sha256_in_prefix": "e7bac27c13efa5ccfca8ed3db9c741086582915e6ca5af306fdbc8a4357e8c39",
+        "size_in_bytes": 12267
+      },
+      {
+        "_path": "site-packages/openai/resources/beta/threads/messages/messages.py",
+        "path_type": "hardlink",
+        "sha256": "27990d1d560e8481d0227913b7444bee81ac2eab79504b2fab30026f735b489d",
+        "sha256_in_prefix": "27990d1d560e8481d0227913b7444bee81ac2eab79504b2fab30026f735b489d",
+        "size_in_bytes": 22831
+      },
+      {
+        "_path": "site-packages/openai/resources/beta/threads/runs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0b363be17901dc0ad48c1b9fa072892adccbd45a4af23a01955df73e06169001",
+        "sha256_in_prefix": "0b363be17901dc0ad48c1b9fa072892adccbd45a4af23a01955df73e06169001",
+        "size_in_bytes": 738
+      },
+      {
+        "_path": "site-packages/openai/resources/beta/threads/runs/runs.py",
+        "path_type": "hardlink",
+        "sha256": "ea550bf30090299d693969833fb891ffacf19df8e1afa087ec49cc46b1ad5462",
+        "sha256_in_prefix": "ea550bf30090299d693969833fb891ffacf19df8e1afa087ec49cc46b1ad5462",
+        "size_in_bytes": 32278
+      },
+      {
+        "_path": "site-packages/openai/resources/beta/threads/runs/steps.py",
+        "path_type": "hardlink",
+        "sha256": "e99183129e916f38b9e26bd90fdb3c7b374bab8a497256b8535a99383c257fff",
+        "sha256_in_prefix": "e99183129e916f38b9e26bd90fdb3c7b374bab8a497256b8535a99383c257fff",
+        "size_in_bytes": 12141
+      },
+      {
+        "_path": "site-packages/openai/resources/beta/threads/threads.py",
+        "path_type": "hardlink",
+        "sha256": "1005240ef96c86310b50a3ba0a405116a1113d9fa8cc91e10d3137a04459cfd1",
+        "sha256_in_prefix": "1005240ef96c86310b50a3ba0a405116a1113d9fa8cc91e10d3137a04459cfd1",
+        "size_in_bytes": 25273
+      },
+      {
+        "_path": "site-packages/openai/resources/chat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cb0f8ae2cd5226f079b88ff96db2b427d2d461ee1c0618555ddd74ed17731af8",
+        "sha256_in_prefix": "cb0f8ae2cd5226f079b88ff96db2b427d2d461ee1c0618555ddd74ed17731af8",
+        "size_in_bytes": 816
+      },
+      {
+        "_path": "site-packages/openai/resources/chat/chat.py",
+        "path_type": "hardlink",
+        "sha256": "b2daf9620d2f360bcfd422e90141167ce1f48c395a3413d28acec1ca1317f439",
+        "sha256_in_prefix": "b2daf9620d2f360bcfd422e90141167ce1f48c395a3413d28acec1ca1317f439",
+        "size_in_bytes": 2309
+      },
+      {
+        "_path": "site-packages/openai/resources/chat/completions.py",
+        "path_type": "hardlink",
+        "sha256": "aa04ec2458a4d168dad4a79be0a4ffb506316d1bdb8348de1e6a2d260343bdd9",
+        "sha256_in_prefix": "aa04ec2458a4d168dad4a79be0a4ffb506316d1bdb8348de1e6a2d260343bdd9",
+        "size_in_bytes": 72110
+      },
+      {
+        "_path": "site-packages/openai/resources/completions.py",
+        "path_type": "hardlink",
+        "sha256": "6ec155d24f24dc665d4ec5d5976278cf9ec892fb77c90e1f3a4b3f0a93bf4d5f",
+        "sha256_in_prefix": "6ec155d24f24dc665d4ec5d5976278cf9ec892fb77c90e1f3a4b3f0a93bf4d5f",
+        "size_in_bytes": 56586
+      },
+      {
+        "_path": "site-packages/openai/resources/embeddings.py",
+        "path_type": "hardlink",
+        "sha256": "4f49e3506f53a62fb819ae5c6ed1a744504330487c14df1701923690d0c3f806",
+        "sha256_in_prefix": "4f49e3506f53a62fb819ae5c6ed1a744504330487c14df1701923690d0c3f806",
+        "size_in_bytes": 10677
+      },
+      {
+        "_path": "site-packages/openai/resources/files.py",
+        "path_type": "hardlink",
+        "sha256": "d061e80e8ee0956e9c6d3af3930e0a559cadd712a5f863189188d3bd4151f9b9",
+        "sha256_in_prefix": "d061e80e8ee0956e9c6d3af3930e0a559cadd712a5f863189188d3bd4151f9b9",
+        "size_in_bytes": 26000
+      },
+      {
+        "_path": "site-packages/openai/resources/fine_tuning/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1e05a6673be1fb2390dcc09038d02b7ecb745bfe5ecc90c8a6ca87a2ef943a8b",
+        "sha256_in_prefix": "1e05a6673be1fb2390dcc09038d02b7ecb745bfe5ecc90c8a6ca87a2ef943a8b",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "site-packages/openai/resources/fine_tuning/fine_tuning.py",
+        "path_type": "hardlink",
+        "sha256": "b3d9dc6d9af2c47e8454643449a9621a77c29919311bf33521a65449b668727b",
+        "sha256_in_prefix": "b3d9dc6d9af2c47e8454643449a9621a77c29919311bf33521a65449b668727b",
+        "size_in_bytes": 2338
+      },
+      {
+        "_path": "site-packages/openai/resources/fine_tuning/jobs.py",
+        "path_type": "hardlink",
+        "sha256": "82bd000497233a8cabe9ea842faf7e3dd570ea49dba6e7cb3dc8b1074cf3972d",
+        "sha256_in_prefix": "82bd000497233a8cabe9ea842faf7e3dd570ea49dba6e7cb3dc8b1074cf3972d",
+        "size_in_bytes": 24455
+      },
+      {
+        "_path": "site-packages/openai/resources/images.py",
+        "path_type": "hardlink",
+        "sha256": "a79f92b66d0c8ff78e2ba95b26d940c3a61f45bb044e24ab2882f8211fe3c93b",
+        "sha256_in_prefix": "a79f92b66d0c8ff78e2ba95b26d940c3a61f45bb044e24ab2882f8211fe3c93b",
+        "size_in_bytes": 24159
+      },
+      {
+        "_path": "site-packages/openai/resources/models.py",
+        "path_type": "hardlink",
+        "sha256": "5a0016c9ea9dc7b36994138791661c96dab8b682df878ed57fcd10691f06ab8f",
+        "sha256_in_prefix": "5a0016c9ea9dc7b36994138791661c96dab8b682df878ed57fcd10691f06ab8f",
+        "size_in_bytes": 10150
+      },
+      {
+        "_path": "site-packages/openai/resources/moderations.py",
+        "path_type": "hardlink",
+        "sha256": "e611e6aa9fd9dac492a282649f56dcf2083dc8ae6d5b57e9e306d1112cc1bdb4",
+        "sha256_in_prefix": "e611e6aa9fd9dac492a282649f56dcf2083dc8ae6d5b57e9e306d1112cc1bdb4",
+        "size_in_bytes": 6576
+      },
+      {
+        "_path": "site-packages/openai/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fe0777bf7e0081d1938c38d9f213cbc3f00584c759d4c4c1d6999c23f9be6eb4",
+        "sha256_in_prefix": "fe0777bf7e0081d1938c38d9f213cbc3f00584c759d4c4c1d6999c23f9be6eb4",
+        "size_in_bytes": 1629
+      },
+      {
+        "_path": "site-packages/openai/types/audio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "69f588e79e7ea84ae9df5502ab1fa55ba5aed9f9a37bc33e47413fcd0848022a",
+        "sha256_in_prefix": "69f588e79e7ea84ae9df5502ab1fa55ba5aed9f9a37bc33e47413fcd0848022a",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "site-packages/openai/types/audio/speech_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "9ef469a76b2823796301d47f5c4e5a965cb600762f74133f7d2adaa5e29de9b4",
+        "sha256_in_prefix": "9ef469a76b2823796301d47f5c4e5a965cb600762f74133f7d2adaa5e29de9b4",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "site-packages/openai/types/audio/transcription.py",
+        "path_type": "hardlink",
+        "sha256": "6c71ea27346b764fe9db7caf7a74c68f0d100678c8dde6de9b5262d4825138e7",
+        "sha256_in_prefix": "6c71ea27346b764fe9db7caf7a74c68f0d100678c8dde6de9b5262d4825138e7",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "site-packages/openai/types/audio/transcription_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "6c3bff9e0727755dfacfc8fc3d4dea9d6c2ce586b43969fc4136df34b102554d",
+        "sha256_in_prefix": "6c3bff9e0727755dfacfc8fc3d4dea9d6c2ce586b43969fc4136df34b102554d",
+        "size_in_bytes": 2018
+      },
+      {
+        "_path": "site-packages/openai/types/audio/translation.py",
+        "path_type": "hardlink",
+        "sha256": "a8e8794451ac0235f97e277abc562d74d34effb415b400195b31f06dc35cdb6e",
+        "sha256_in_prefix": "a8e8794451ac0235f97e277abc562d74d34effb415b400195b31f06dc35cdb6e",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "site-packages/openai/types/audio/translation_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "c711bafb1c9c49df19cedeb26a4d5f6146bb05b6f038ac5d5735916ce6141340",
+        "sha256_in_prefix": "c711bafb1c9c49df19cedeb26a4d5f6146bb05b6f038ac5d5735916ce6141340",
+        "size_in_bytes": 1404
+      },
+      {
+        "_path": "site-packages/openai/types/beta/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c30e1883e7127acb2a9055bca185652cd611cce7c16f9ac988c16d9b8816220e",
+        "sha256_in_prefix": "c30e1883e7127acb2a9055bca185652cd611cce7c16f9ac988c16d9b8816220e",
+        "size_in_bytes": 791
+      },
+      {
+        "_path": "site-packages/openai/types/beta/assistant.py",
+        "path_type": "hardlink",
+        "sha256": "e51c58a9c12d409ca65d2db3d82685c1438b647d7efbbaf788e12df479c276f3",
+        "sha256_in_prefix": "e51c58a9c12d409ca65d2db3d82685c1438b647d7efbbaf788e12df479c276f3",
+        "size_in_bytes": 2562
+      },
+      {
+        "_path": "site-packages/openai/types/beta/assistant_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "812b0678ea6f0153cf44fa528001d5335b5b1b0903ca24c2bddea9fd103aac74",
+        "sha256_in_prefix": "812b0678ea6f0153cf44fa528001d5335b5b1b0903ca24c2bddea9fd103aac74",
+        "size_in_bytes": 2553
+      },
+      {
+        "_path": "site-packages/openai/types/beta/assistant_deleted.py",
+        "path_type": "hardlink",
+        "sha256": "7d5d7019d62d985f22ae3d9645fe9e476e09a1d1b4cf5accfcce5bc2a4afa15e",
+        "sha256_in_prefix": "7d5d7019d62d985f22ae3d9645fe9e476e09a1d1b4cf5accfcce5bc2a4afa15e",
+        "size_in_bytes": 268
+      },
+      {
+        "_path": "site-packages/openai/types/beta/assistant_list_params.py",
+        "path_type": "hardlink",
+        "sha256": "82c491b5dbd93220716930afa5f5f2dcb60acd588f974cacc7d6bcb4382ec5ff",
+        "sha256_in_prefix": "82c491b5dbd93220716930afa5f5f2dcb60acd588f974cacc7d6bcb4382ec5ff",
+        "size_in_bytes": 1187
+      },
+      {
+        "_path": "site-packages/openai/types/beta/assistant_update_params.py",
+        "path_type": "hardlink",
+        "sha256": "f34ce0bcf4a3f13fae1885d189cc00b1ed2fb2d1c7e629396c1d8d6f301aae8a",
+        "sha256_in_prefix": "f34ce0bcf4a3f13fae1885d189cc00b1ed2fb2d1c7e629396c1d8d6f301aae8a",
+        "size_in_bytes": 2670
+      },
+      {
+        "_path": "site-packages/openai/types/beta/assistants/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9cf9bf23ec9e54a289458a96cc6adff4ea150c30ec835734423f77ea02042a49",
+        "sha256_in_prefix": "9cf9bf23ec9e54a289458a96cc6adff4ea150c30ec835734423f77ea02042a49",
+        "size_in_bytes": 356
+      },
+      {
+        "_path": "site-packages/openai/types/beta/assistants/assistant_file.py",
+        "path_type": "hardlink",
+        "sha256": "44b86ddb8660f976e9b8a664d9a5571531f4474ff673cb26bdf89c7bb19e931b",
+        "sha256_in_prefix": "44b86ddb8660f976e9b8a664d9a5571531f4474ff673cb26bdf89c7bb19e931b",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "site-packages/openai/types/beta/assistants/file_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "274f6ae67976646278cbc4a1049e6eaf53d2ed71ab34e052073d29b735f6f8b3",
+        "sha256_in_prefix": "274f6ae67976646278cbc4a1049e6eaf53d2ed71ab34e052073d29b735f6f8b3",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "site-packages/openai/types/beta/assistants/file_delete_response.py",
+        "path_type": "hardlink",
+        "sha256": "ba73f0cb29d1ef55f8029d27278284364d8918ebfae5254b89abd455c2d35407",
+        "sha256_in_prefix": "ba73f0cb29d1ef55f8029d27278284364d8918ebfae5254b89abd455c2d35407",
+        "size_in_bytes": 278
+      },
+      {
+        "_path": "site-packages/openai/types/beta/assistants/file_list_params.py",
+        "path_type": "hardlink",
+        "sha256": "27e010c7912ed5f80c8c7394065deed471840e400d551ae6214938c7b1174cdf",
+        "sha256_in_prefix": "27e010c7912ed5f80c8c7394065deed471840e400d551ae6214938c7b1174cdf",
+        "size_in_bytes": 1177
+      },
+      {
+        "_path": "site-packages/openai/types/beta/chat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5a2ac00eab849d81a30534cb9480be90db467faa297e2a77cfeb0aa650bf9376",
+        "sha256_in_prefix": "5a2ac00eab849d81a30534cb9480be90db467faa297e2a77cfeb0aa650bf9376",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "site-packages/openai/types/beta/thread.py",
+        "path_type": "hardlink",
+        "sha256": "247f2bba3c56f228d5381ef6d6b7fbec0e4f05b64627919b3977d72a882a969e",
+        "sha256_in_prefix": "247f2bba3c56f228d5381ef6d6b7fbec0e4f05b64627919b3977d72a882a969e",
+        "size_in_bytes": 781
+      },
+      {
+        "_path": "site-packages/openai/types/beta/thread_create_and_run_params.py",
+        "path_type": "hardlink",
+        "sha256": "22bf19c5efd7cfd014db8407b61cc2fbfc8bb3fe2e216f84989287e7c837b95f",
+        "sha256_in_prefix": "22bf19c5efd7cfd014db8407b61cc2fbfc8bb3fe2e216f84989287e7c837b95f",
+        "size_in_bytes": 3740
+      },
+      {
+        "_path": "site-packages/openai/types/beta/thread_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "74cd5f4f7a4a6bf5fa26274088056c2c9fdd94cfd263431f9427684e7a34702b",
+        "sha256_in_prefix": "74cd5f4f7a4a6bf5fa26274088056c2c9fdd94cfd263431f9427684e7a34702b",
+        "size_in_bytes": 1631
+      },
+      {
+        "_path": "site-packages/openai/types/beta/thread_deleted.py",
+        "path_type": "hardlink",
+        "sha256": "8eb0ee29800ffa82a9dfee59be3a0f47862bf5a67e56159b979be28c376dca90",
+        "sha256_in_prefix": "8eb0ee29800ffa82a9dfee59be3a0f47862bf5a67e56159b979be28c376dca90",
+        "size_in_bytes": 259
+      },
+      {
+        "_path": "site-packages/openai/types/beta/thread_update_params.py",
+        "path_type": "hardlink",
+        "sha256": "1256303b2fbf0160e0287fcb44975d40ef6c6a258c884310b832b832b28c78b4",
+        "sha256_in_prefix": "1256303b2fbf0160e0287fcb44975d40ef6c6a258c884310b832b832b28c78b4",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "df19bc46380b02279782b24e943d4a514a77744456f04c56b70c72f034aadd38",
+        "sha256_in_prefix": "df19bc46380b02279782b24e943d4a514a77744456f04c56b70c72f034aadd38",
+        "size_in_bytes": 977
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/message_content_image_file.py",
+        "path_type": "hardlink",
+        "sha256": "393db1a5d54bc68ae2bc4b4deb0be4065700ded9740411d2a7cd1d92712c25c6",
+        "sha256_in_prefix": "393db1a5d54bc68ae2bc4b4deb0be4065700ded9740411d2a7cd1d92712c25c6",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/message_content_text.py",
+        "path_type": "hardlink",
+        "sha256": "7b87889147ea2431817d83c27c31eba40dd80ebe9f9049d924b550f0a696e41a",
+        "sha256_in_prefix": "7b87889147ea2431817d83c27c31eba40dd80ebe9f9049d924b550f0a696e41a",
+        "size_in_bytes": 1575
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/message_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "cbb563f6e559ffad6fc0f0a9c810ceceb422c9c211ac18f85af935673675fc1e",
+        "sha256_in_prefix": "cbb563f6e559ffad6fc0f0a9c810ceceb422c9c211ac18f85af935673675fc1e",
+        "size_in_bytes": 1100
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/message_list_params.py",
+        "path_type": "hardlink",
+        "sha256": "18bd87abc3e810549b990e0356d0ad8054aa73c56816cedfb6f5562197326e40",
+        "sha256_in_prefix": "18bd87abc3e810549b990e0356d0ad8054aa73c56816cedfb6f5562197326e40",
+        "size_in_bytes": 1183
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/message_update_params.py",
+        "path_type": "hardlink",
+        "sha256": "672e3a6b4a39af1add7bf444a4d64f9b1e06f3d04c3f90c793513970cb94355c",
+        "sha256_in_prefix": "672e3a6b4a39af1add7bf444a4d64f9b1e06f3d04c3f90c793513970cb94355c",
+        "size_in_bytes": 596
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/messages/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3571fccfc08f6f6061aff75e97134ca5d9b314bc5a527572cfb4d7d86753a5b7",
+        "sha256_in_prefix": "3571fccfc08f6f6061aff75e97134ca5d9b314bc5a527572cfb4d7d86753a5b7",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/messages/file_list_params.py",
+        "path_type": "hardlink",
+        "sha256": "2faa4cfd9cf10ff37674f4deb8185eec5ce429bad72f5945d209860233ff94df",
+        "sha256_in_prefix": "2faa4cfd9cf10ff37674f4deb8185eec5ce429bad72f5945d209860233ff94df",
+        "size_in_bytes": 1217
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/messages/message_file.py",
+        "path_type": "hardlink",
+        "sha256": "6737a116531aa6bb66c2ae332f1f1fae103a00f95da5ec68ba5350e283316065",
+        "sha256_in_prefix": "6737a116531aa6bb66c2ae332f1f1fae103a00f95da5ec68ba5350e283316065",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/required_action_function_tool_call.py",
+        "path_type": "hardlink",
+        "sha256": "cae17894d9b9504abcb0c47de817920830fe0b791d41c6dc7f603b55b670549d",
+        "sha256_in_prefix": "cae17894d9b9504abcb0c47de817920830fe0b791d41c6dc7f603b55b670549d",
+        "size_in_bytes": 855
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/run.py",
+        "path_type": "hardlink",
+        "sha256": "0630260f4677d0edc1180d9b3267ff48fc511290674713f3630e223edfd693b5",
+        "sha256_in_prefix": "0630260f4677d0edc1180d9b3267ff48fc511290674713f3630e223edfd693b5",
+        "size_in_bytes": 4985
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/run_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "171f1a4cb0c82769e1d56c06667631ed7280edea5d80c6ea67dba6b51e7efa0e",
+        "sha256_in_prefix": "171f1a4cb0c82769e1d56c06667631ed7280edea5d80c6ea67dba6b51e7efa0e",
+        "size_in_bytes": 2520
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/run_list_params.py",
+        "path_type": "hardlink",
+        "sha256": "4cc01587815fc33931e165b5f8be9ecdf081ecb63ebb699d2cfe69840bf177e0",
+        "sha256_in_prefix": "4cc01587815fc33931e165b5f8be9ecdf081ecb63ebb699d2cfe69840bf177e0",
+        "size_in_bytes": 1175
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/run_submit_tool_outputs_params.py",
+        "path_type": "hardlink",
+        "sha256": "47b06193186bf8007c8a9f1a128912dc3d4fd80df0a99892159c698f26d95752",
+        "sha256_in_prefix": "47b06193186bf8007c8a9f1a128912dc3d4fd80df0a99892159c698f26d95752",
+        "size_in_bytes": 727
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/run_update_params.py",
+        "path_type": "hardlink",
+        "sha256": "95374362e994d3df81ce2868bf06945b2ffb7a6f65e9df435e269b2be8fad303",
+        "sha256_in_prefix": "95374362e994d3df81ce2868bf06945b2ffb7a6f65e9df435e269b2be8fad303",
+        "size_in_bytes": 588
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/runs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1321ed14a874b08c8bc3eada57357773d4a456468a8f866fa4cd5efd5e0d9c0a",
+        "sha256_in_prefix": "1321ed14a874b08c8bc3eada57357773d4a456468a8f866fa4cd5efd5e0d9c0a",
+        "size_in_bytes": 574
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/runs/code_tool_call.py",
+        "path_type": "hardlink",
+        "sha256": "73f0bcb77164c2461e85f95860158f28a6eb69c21c178f04238c6260704789c5",
+        "sha256_in_prefix": "73f0bcb77164c2461e85f95860158f28a6eb69c21c178f04238c6260704789c5",
+        "size_in_bytes": 1632
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/runs/function_tool_call.py",
+        "path_type": "hardlink",
+        "sha256": "1f07c410b3b40a4f31f9d75c20a0a9291815394267fe38ff8ed88b6fbb4054b2",
+        "sha256_in_prefix": "1f07c410b3b40a4f31f9d75c20a0a9291815394267fe38ff8ed88b6fbb4054b2",
+        "size_in_bytes": 887
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/runs/message_creation_step_details.py",
+        "path_type": "hardlink",
+        "sha256": "523c67e38023dbb452de6d7843ba9ef2deded62ce148771ea8b4a86094315cfd",
+        "sha256_in_prefix": "523c67e38023dbb452de6d7843ba9ef2deded62ce148771ea8b4a86094315cfd",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/runs/retrieval_tool_call.py",
+        "path_type": "hardlink",
+        "sha256": "5f80e05c18202e46e4c4d6d5cbbe02a2dd13b7359d66fd962ad4d77876b06d06",
+        "sha256_in_prefix": "5f80e05c18202e46e4c4d6d5cbbe02a2dd13b7359d66fd962ad4d77876b06d06",
+        "size_in_bytes": 481
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/runs/run_step.py",
+        "path_type": "hardlink",
+        "sha256": "3c1541b1f46a3c6f976921c77743d8918dbb97f312e017f8b8b12ebf652ae2a5",
+        "sha256_in_prefix": "3c1541b1f46a3c6f976921c77743d8918dbb97f312e017f8b8b12ebf652ae2a5",
+        "size_in_bytes": 3312
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/runs/step_list_params.py",
+        "path_type": "hardlink",
+        "sha256": "e118d5f5cbd454811266bec25a42096f0d93f83f5d0a65b6ba21c291d87b9d18",
+        "sha256_in_prefix": "e118d5f5cbd454811266bec25a42096f0d93f83f5d0a65b6ba21c291d87b9d18",
+        "size_in_bytes": 1217
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/runs/tool_calls_step_details.py",
+        "path_type": "hardlink",
+        "sha256": "5a26779e8f06a40153dba901c9bb043c79ddf53cae7e1b886572c339ec3ed888",
+        "sha256_in_prefix": "5a26779e8f06a40153dba901c9bb043c79ddf53cae7e1b886572c339ec3ed888",
+        "size_in_bytes": 736
+      },
+      {
+        "_path": "site-packages/openai/types/beta/threads/thread_message.py",
+        "path_type": "hardlink",
+        "sha256": "59822254dec9f0fe556cad347f66924baa743b92eb43bc7e794d81b1e23d4eb8",
+        "sha256_in_prefix": "59822254dec9f0fe556cad347f66924baa743b92eb43bc7e794d81b1e23d4eb8",
+        "size_in_bytes": 2057
+      },
+      {
+        "_path": "site-packages/openai/types/chat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2129c91eaa738d237c540e28043b74bdf306c20f5efa0ef2e4cf10b8f4588773",
+        "sha256_in_prefix": "2129c91eaa738d237c540e28043b74bdf306c20f5efa0ef2e4cf10b8f4588773",
+        "size_in_bytes": 2431
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion.py",
+        "path_type": "hardlink",
+        "sha256": "bf50b374f748db1de48a9d3c72fbd523d244f9f3d3d5840d31476b92775222de",
+        "sha256_in_prefix": "bf50b374f748db1de48a9d3c72fbd523d244f9f3d3d5840d31476b92775222de",
+        "size_in_bytes": 2288
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_assistant_message_param.py",
+        "path_type": "hardlink",
+        "sha256": "d43a9fdaf15c542f71109f978889f0bce0934a1bea42f0fcb2dddbd543386552",
+        "sha256_in_prefix": "d43a9fdaf15c542f71109f978889f0bce0934a1bea42f0fcb2dddbd543386552",
+        "size_in_bytes": 1605
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_chunk.py",
+        "path_type": "hardlink",
+        "sha256": "4ba7dc3649767a8a46b04ee02b020f032b1c22fc51964826d0afbdeb63518adb",
+        "sha256_in_prefix": "4ba7dc3649767a8a46b04ee02b020f032b1c22fc51964826d0afbdeb63518adb",
+        "size_in_bytes": 4062
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_content_part_image_param.py",
+        "path_type": "hardlink",
+        "sha256": "932aa9eb798a28fb4875ea65f2436b2446a83fc990bcbacb0630e220aecf08f6",
+        "sha256_in_prefix": "932aa9eb798a28fb4875ea65f2436b2446a83fc990bcbacb0630e220aecf08f6",
+        "size_in_bytes": 764
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_content_part_param.py",
+        "path_type": "hardlink",
+        "sha256": "11d96de4d1a235cdac468ed60b6c37190532e1598ac39b759e3d56c66131e1bf",
+        "sha256_in_prefix": "11d96de4d1a235cdac468ed60b6c37190532e1598ac39b759e3d56c66131e1bf",
+        "size_in_bytes": 453
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_content_part_text_param.py",
+        "path_type": "hardlink",
+        "sha256": "fd326dc5b1d0694ebe239b84a2b89523baec798eca35d1d5f68b80eb0247f5fe",
+        "sha256_in_prefix": "fd326dc5b1d0694ebe239b84a2b89523baec798eca35d1d5f68b80eb0247f5fe",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_function_call_option_param.py",
+        "path_type": "hardlink",
+        "sha256": "dc5196faf385278d5462a8a242e8c99fe338b86b7630b1c455fcdf5952d2d3f2",
+        "sha256_in_prefix": "dc5196faf385278d5462a8a242e8c99fe338b86b7630b1c455fcdf5952d2d3f2",
+        "size_in_bytes": 332
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_function_message_param.py",
+        "path_type": "hardlink",
+        "sha256": "281e1c5c783ffc593078b9974c28352fb72b2ce48ab27f9f72ab510725e89917",
+        "sha256_in_prefix": "281e1c5c783ffc593078b9974c28352fb72b2ce48ab27f9f72ab510725e89917",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_message.py",
+        "path_type": "hardlink",
+        "sha256": "8abb474191d1160b049368ebc5f6c44f9b444663dae7571319ad084b6f3fadd4",
+        "sha256_in_prefix": "8abb474191d1160b049368ebc5f6c44f9b444663dae7571319ad084b6f3fadd4",
+        "size_in_bytes": 1249
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_message_param.py",
+        "path_type": "hardlink",
+        "sha256": "84d56444998fdbd6e322275606fe8a2c8685f77eb41c00a394d3cc43c51a7197",
+        "sha256_in_prefix": "84d56444998fdbd6e322275606fe8a2c8685f77eb41c00a394d3cc43c51a7197",
+        "size_in_bytes": 805
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_message_tool_call.py",
+        "path_type": "hardlink",
+        "sha256": "d864b8f4d2fa33d6f1df2a054d1ad906d0396c65cc57a573f3b1c32f3ad53f11",
+        "sha256_in_prefix": "d864b8f4d2fa33d6f1df2a054d1ad906d0396c65cc57a573f3b1c32f3ad53f11",
+        "size_in_bytes": 867
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_message_tool_call_param.py",
+        "path_type": "hardlink",
+        "sha256": "4cf4f101aa57ee29a6dc97b72312d8642caf9a43f84181f469dd30b24d5f2e58",
+        "sha256_in_prefix": "4cf4f101aa57ee29a6dc97b72312d8642caf9a43f84181f469dd30b24d5f2e58",
+        "size_in_bytes": 976
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_named_tool_choice_param.py",
+        "path_type": "hardlink",
+        "sha256": "799d661413ce39abeb04b5c7a4bcf52ac9c859f559899c989615b3cfd5428265",
+        "sha256_in_prefix": "799d661413ce39abeb04b5c7a4bcf52ac9c859f559899c989615b3cfd5428265",
+        "size_in_bytes": 536
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_role.py",
+        "path_type": "hardlink",
+        "sha256": "9daf6428bc0dc92605e020deb892b1f1ba3595cdb43c7c5ee3aa171cb01bf1c6",
+        "sha256_in_prefix": "9daf6428bc0dc92605e020deb892b1f1ba3595cdb43c7c5ee3aa171cb01bf1c6",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_system_message_param.py",
+        "path_type": "hardlink",
+        "sha256": "58e44d35119718e50be89b0de893b5f4f63b7676b9d1eea4b65e48ca19d3154d",
+        "sha256_in_prefix": "58e44d35119718e50be89b0de893b5f4f63b7676b9d1eea4b65e48ca19d3154d",
+        "size_in_bytes": 605
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_token_logprob.py",
+        "path_type": "hardlink",
+        "sha256": "04fb0dd431a95fb572a762239d82275ebf340834573b60b98b96fc15e7ae5783",
+        "sha256_in_prefix": "04fb0dd431a95fb572a762239d82275ebf340834573b60b98b96fc15e7ae5783",
+        "size_in_bytes": 1440
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_tool_choice_option_param.py",
+        "path_type": "hardlink",
+        "sha256": "879d88d39a1bf7e2f3998f6cb062f3b07fc4af9fb0474287f3951df7dd65d723",
+        "sha256_in_prefix": "879d88d39a1bf7e2f3998f6cb062f3b07fc4af9fb0474287f3951df7dd65d723",
+        "size_in_bytes": 399
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_tool_message_param.py",
+        "path_type": "hardlink",
+        "sha256": "cdb1fcb8d29a8844dc2528ad50167b056b670f5d6ddcd548533aa9c9a9f4424c",
+        "sha256_in_prefix": "cdb1fcb8d29a8844dc2528ad50167b056b670f5d6ddcd548533aa9c9a9f4424c",
+        "size_in_bytes": 520
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_tool_param.py",
+        "path_type": "hardlink",
+        "sha256": "7b3f775f241dfeed25032e3470ee5a889b9ba0236dbd6c80640f0984a1555116",
+        "sha256_in_prefix": "7b3f775f241dfeed25032e3470ee5a889b9ba0236dbd6c80640f0984a1555116",
+        "size_in_bytes": 452
+      },
+      {
+        "_path": "site-packages/openai/types/chat/chat_completion_user_message_param.py",
+        "path_type": "hardlink",
+        "sha256": "d45a511c2b24ecccb61cf80b6b801bb9da4b280311cff3e8fce8e8d08cc3eefb",
+        "sha256_in_prefix": "d45a511c2b24ecccb61cf80b6b801bb9da4b280311cff3e8fce8e8d08cc3eefb",
+        "size_in_bytes": 759
+      },
+      {
+        "_path": "site-packages/openai/types/chat/completion_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "88f5770d90b62e1ab8b07daa1da16c0be05472e476aa2cea34ad636dc1b7944d",
+        "sha256_in_prefix": "88f5770d90b62e1ab8b07daa1da16c0be05472e476aa2cea34ad636dc1b7944d",
+        "size_in_bytes": 10599
+      },
+      {
+        "_path": "site-packages/openai/types/completion.py",
+        "path_type": "hardlink",
+        "sha256": "4d665730e2df29c64bfe4283832240899df8fe7150881ebab6cd2cbeda74daca",
+        "sha256_in_prefix": "4d665730e2df29c64bfe4283832240899df8fe7150881ebab6cd2cbeda74daca",
+        "size_in_bytes": 1139
+      },
+      {
+        "_path": "site-packages/openai/types/completion_choice.py",
+        "path_type": "hardlink",
+        "sha256": "944b56ff22dad4f508b7421b10a9e39eebb48aea8d39346c0914709a414505f3",
+        "sha256_in_prefix": "944b56ff22dad4f508b7421b10a9e39eebb48aea8d39346c0914709a414505f3",
+        "size_in_bytes": 932
+      },
+      {
+        "_path": "site-packages/openai/types/completion_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "f5fce23d008a0a72849cd7bc131734b7c6aabf4ec3f51f60160cd01283e5ae06",
+        "sha256_in_prefix": "f5fce23d008a0a72849cd7bc131734b7c6aabf4ec3f51f60160cd01283e5ae06",
+        "size_in_bytes": 7223
+      },
+      {
+        "_path": "site-packages/openai/types/completion_usage.py",
+        "path_type": "hardlink",
+        "sha256": "1f5a270b7bee572e4d2925255bc1417d5ce5fcf7e0172ac1ff2b6ba3cd190233",
+        "sha256_in_prefix": "1f5a270b7bee572e4d2925255bc1417d5ce5fcf7e0172ac1ff2b6ba3cd190233",
+        "size_in_bytes": 401
+      },
+      {
+        "_path": "site-packages/openai/types/create_embedding_response.py",
+        "path_type": "hardlink",
+        "sha256": "aaebd6c80138f2a57fa704f2593053ece3beb75005d3365a31423c9fe3cfb422",
+        "sha256_in_prefix": "aaebd6c80138f2a57fa704f2593053ece3beb75005d3365a31423c9fe3cfb422",
+        "size_in_bytes": 765
+      },
+      {
+        "_path": "site-packages/openai/types/embedding.py",
+        "path_type": "hardlink",
+        "sha256": "10f32aacffce8cb32e893bf45dc2d38b389c8a571d800c35e9a91b7560fbc487",
+        "sha256_in_prefix": "10f32aacffce8cb32e893bf45dc2d38b389c8a571d800c35e9a91b7560fbc487",
+        "size_in_bytes": 604
+      },
+      {
+        "_path": "site-packages/openai/types/embedding_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "993d92f07d3eb59fee0917e4460e983717c36ad91fffb321c74ac8651550c279",
+        "sha256_in_prefix": "993d92f07d3eb59fee0917e4460e983717c36ad91fffb321c74ac8651550c279",
+        "size_in_bytes": 1852
+      },
+      {
+        "_path": "site-packages/openai/types/file_content.py",
+        "path_type": "hardlink",
+        "sha256": "1ae36daad640b871574b4b8825b4e93afcf1fd178fac4fa59c7dc5bcdc38749f",
+        "sha256_in_prefix": "1ae36daad640b871574b4b8825b4e93afcf1fd178fac4fa59c7dc5bcdc38749f",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/openai/types/file_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "e05e97a530d34465d98eeb315db53ef36aefc450148eed38202e8fcb0b434d85",
+        "sha256_in_prefix": "e05e97a530d34465d98eeb315db53ef36aefc450148eed38202e8fcb0b434d85",
+        "size_in_bytes": 840
+      },
+      {
+        "_path": "site-packages/openai/types/file_deleted.py",
+        "path_type": "hardlink",
+        "sha256": "7094168d52b5122163de4c15e277509c5e4c96abfb6525cd26d4b01168a52fe0",
+        "sha256_in_prefix": "7094168d52b5122163de4c15e277509c5e4c96abfb6525cd26d4b01168a52fe0",
+        "size_in_bytes": 244
+      },
+      {
+        "_path": "site-packages/openai/types/file_list_params.py",
+        "path_type": "hardlink",
+        "sha256": "d08a53caa08031c325f90d96d6ffb827fc69a027529a1d73beffe9f97d0e9844",
+        "sha256_in_prefix": "d08a53caa08031c325f90d96d6ffb827fc69a027529a1d73beffe9f97d0e9844",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "site-packages/openai/types/file_object.py",
+        "path_type": "hardlink",
+        "sha256": "a30b97e8781832abb0cc289feb9a4d49457ee5db58b34f70b6393438d9dfbcc1",
+        "sha256_in_prefix": "a30b97e8781832abb0cc289feb9a4d49457ee5db58b34f70b6393438d9dfbcc1",
+        "size_in_bytes": 1193
+      },
+      {
+        "_path": "site-packages/openai/types/fine_tuning/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c1fbbc722a87a290513d4919d03fcd90fd78fb5c1816056b63ca5b088da2f38b",
+        "sha256_in_prefix": "c1fbbc722a87a290513d4919d03fcd90fd78fb5c1816056b63ca5b088da2f38b",
+        "size_in_bytes": 431
+      },
+      {
+        "_path": "site-packages/openai/types/fine_tuning/fine_tuning_job.py",
+        "path_type": "hardlink",
+        "sha256": "d12e2f1ee3054f8d2a8625c6025f8ca93a00c081777de61203d39e257438b6aa",
+        "sha256_in_prefix": "d12e2f1ee3054f8d2a8625c6025f8ca93a00c081777de61203d39e257438b6aa",
+        "size_in_bytes": 3312
+      },
+      {
+        "_path": "site-packages/openai/types/fine_tuning/fine_tuning_job_event.py",
+        "path_type": "hardlink",
+        "sha256": "4d1c74520b6f8a4998522460d2f304bb9edc36cce98a7d20b1b6eb1e23cbfa36",
+        "sha256_in_prefix": "4d1c74520b6f8a4998522460d2f304bb9edc36cce98a7d20b1b6eb1e23cbfa36",
+        "size_in_bytes": 341
+      },
+      {
+        "_path": "site-packages/openai/types/fine_tuning/job_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "972f49b3e406890a02a15055843ee833ebb26e48dc3cad7bda8cd823657a7c13",
+        "sha256_in_prefix": "972f49b3e406890a02a15055843ee833ebb26e48dc3cad7bda8cd823657a7c13",
+        "size_in_bytes": 2578
+      },
+      {
+        "_path": "site-packages/openai/types/fine_tuning/job_list_events_params.py",
+        "path_type": "hardlink",
+        "sha256": "b5fa68fdbb13196d9968fcefe5e272af9177f141148b013f3090cdb6d7ca2f0a",
+        "sha256_in_prefix": "b5fa68fdbb13196d9968fcefe5e272af9177f141148b013f3090cdb6d7ca2f0a",
+        "size_in_bytes": 367
+      },
+      {
+        "_path": "site-packages/openai/types/fine_tuning/job_list_params.py",
+        "path_type": "hardlink",
+        "sha256": "01d9b9bf2fbfd2aa0a3fd51b7ff0cea13fe9464c81d5805d6ef6c03003f8d21c",
+        "sha256_in_prefix": "01d9b9bf2fbfd2aa0a3fd51b7ff0cea13fe9464c81d5805d6ef6c03003f8d21c",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "site-packages/openai/types/image.py",
+        "path_type": "hardlink",
+        "sha256": "1d75088a7fbc25beb8ded12d1d883d600139f7e92a5ddc9c075a785ea4b9a806",
+        "sha256_in_prefix": "1d75088a7fbc25beb8ded12d1d883d600139f7e92a5ddc9c075a785ea4b9a806",
+        "size_in_bytes": 574
+      },
+      {
+        "_path": "site-packages/openai/types/image_create_variation_params.py",
+        "path_type": "hardlink",
+        "sha256": "7b5cce65a4ca837ed07ba2e00edd216aa1cf74ea6a8f82989b319f4be7555ffd",
+        "sha256_in_prefix": "7b5cce65a4ca837ed07ba2e00edd216aa1cf74ea6a8f82989b319f4be7555ffd",
+        "size_in_bytes": 1342
+      },
+      {
+        "_path": "site-packages/openai/types/image_edit_params.py",
+        "path_type": "hardlink",
+        "sha256": "d32db7f990d9c92d1afdae44da47d57231ff049a395d28b45c09cac700824145",
+        "sha256_in_prefix": "d32db7f990d9c92d1afdae44da47d57231ff049a395d28b45c09cac700824145",
+        "size_in_bytes": 1702
+      },
+      {
+        "_path": "site-packages/openai/types/image_generate_params.py",
+        "path_type": "hardlink",
+        "sha256": "d1794a09f5265d48bca5029eb5bfe9ae2fb5a95e7146953a723986ca79821490",
+        "sha256_in_prefix": "d1794a09f5265d48bca5029eb5bfe9ae2fb5a95e7146953a723986ca79821490",
+        "size_in_bytes": 2008
+      },
+      {
+        "_path": "site-packages/openai/types/images_response.py",
+        "path_type": "hardlink",
+        "sha256": "dde3a23c80f139293111a36b6f41ce9c76663ed158590b58ff1a42fb224de94d",
+        "sha256_in_prefix": "dde3a23c80f139293111a36b6f41ce9c76663ed158590b58ff1a42fb224de94d",
+        "size_in_bytes": 241
+      },
+      {
+        "_path": "site-packages/openai/types/model.py",
+        "path_type": "hardlink",
+        "sha256": "77f87b807f7fec0d86ad11f0eb5c7c4453c45ccdee3a562a87a5d51c6b8c43df",
+        "sha256_in_prefix": "77f87b807f7fec0d86ad11f0eb5c7c4453c45ccdee3a562a87a5d51c6b8c43df",
+        "size_in_bytes": 499
+      },
+      {
+        "_path": "site-packages/openai/types/model_deleted.py",
+        "path_type": "hardlink",
+        "sha256": "bc364c8a2c6d17dd3771ef5b1a2c57a6eb392752ab1d8184caefc46fa90efa6f",
+        "sha256_in_prefix": "bc364c8a2c6d17dd3771ef5b1a2c57a6eb392752ab1d8184caefc46fa90efa6f",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "site-packages/openai/types/moderation.py",
+        "path_type": "hardlink",
+        "sha256": "fe5d408848762ae58e33f817c9a0430e72f6ff26d119d8f7318d0a13d1f732bc",
+        "sha256_in_prefix": "fe5d408848762ae58e33f817c9a0430e72f6ff26d119d8f7318d0a13d1f732bc",
+        "size_in_bytes": 3946
+      },
+      {
+        "_path": "site-packages/openai/types/moderation_create_params.py",
+        "path_type": "hardlink",
+        "sha256": "55b9983f2ef920585635e64657fa1cb8cfe6e70d9774bea88080cb7f4800c28b",
+        "sha256_in_prefix": "55b9983f2ef920585635e64657fa1cb8cfe6e70d9774bea88080cb7f4800c28b",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "site-packages/openai/types/moderation_create_response.py",
+        "path_type": "hardlink",
+        "sha256": "4b62173a45309e51161fc84aa4c23c9cfa60d8d1222d813739f4d72fcf76c6f0",
+        "sha256_in_prefix": "4b62173a45309e51161fc84aa4c23c9cfa60d8d1222d813739f4d72fcf76c6f0",
+        "size_in_bytes": 451
+      },
+      {
+        "_path": "site-packages/openai/types/shared/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "644961fea596bad569d9dd9f9056a46fcb067aa701e8cfc65ad0b7498a213bc8",
+        "sha256_in_prefix": "644961fea596bad569d9dd9f9056a46fcb067aa701e8cfc65ad0b7498a213bc8",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "site-packages/openai/types/shared/function_definition.py",
+        "path_type": "hardlink",
+        "sha256": "9666e9be9bbb12df45a0b584d78a7102be12cb8ee6a17c10ce03d9bd7db1b893",
+        "sha256_in_prefix": "9666e9be9bbb12df45a0b584d78a7102be12cb8ee6a17c10ce03d9bd7db1b893",
+        "size_in_bytes": 1034
+      },
+      {
+        "_path": "site-packages/openai/types/shared/function_parameters.py",
+        "path_type": "hardlink",
+        "sha256": "5e3eb033586ad4aa7a66c63235d6e37d6f4b2df6702451fb1d6bb3a8b9ccbbed",
+        "sha256_in_prefix": "5e3eb033586ad4aa7a66c63235d6e37d6f4b2df6702451fb1d6bb3a8b9ccbbed",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "site-packages/openai/types/shared_params/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "644961fea596bad569d9dd9f9056a46fcb067aa701e8cfc65ad0b7498a213bc8",
+        "sha256_in_prefix": "644961fea596bad569d9dd9f9056a46fcb067aa701e8cfc65ad0b7498a213bc8",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "site-packages/openai/types/shared_params/function_definition.py",
+        "path_type": "hardlink",
+        "sha256": "fa3356e5369a6e36ae028541d8ebf987356f96c8357d9ee87ab865c2a8c56ab2",
+        "sha256_in_prefix": "fa3356e5369a6e36ae028541d8ebf987356f96c8357d9ee87ab865c2a8c56ab2",
+        "size_in_bytes": 1045
+      },
+      {
+        "_path": "site-packages/openai/types/shared_params/function_parameters.py",
+        "path_type": "hardlink",
+        "sha256": "ff3b33df4d71754c9d944b877778a03ba07aeb415765bd66b842ef73412afdaf",
+        "sha256_in_prefix": "ff3b33df4d71754c9d944b877778a03ba07aeb415765bd66b842ef73412afdaf",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "site-packages/openai/version.py",
+        "path_type": "hardlink",
+        "sha256": "7236d728ef14b776a2bf8625427ba07dfec0742e3c3294a775cc7deaaf3c61bf",
+        "sha256_in_prefix": "7236d728ef14b776a2bf8625427ba07dfec0742e3c3294a775cc7deaaf3c61bf",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_base_client.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_client.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_compat.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_constants.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/_extras/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/_extras/__pycache__/_common.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/_extras/__pycache__/numpy_proxy.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/_extras/__pycache__/pandas_proxy.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_files.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_legacy_response.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_models.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_module_client.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_qs.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_resource.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_response.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_streaming.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_types.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/_utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/_utils/__pycache__/_logs.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/_utils/__pycache__/_proxy.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/_utils/__pycache__/_streams.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/_utils/__pycache__/_sync.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/_utils/__pycache__/_transform.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/_utils/__pycache__/_typing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/_utils/__pycache__/_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/_api/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/_api/__pycache__/_main.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/_api/__pycache__/audio.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/_api/chat/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/_api/chat/__pycache__/completions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/_api/__pycache__/completions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/_api/__pycache__/files.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/_api/__pycache__/image.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/_api/__pycache__/models.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/__pycache__/_cli.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/__pycache__/_errors.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/__pycache__/_models.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/__pycache__/_progress.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/_tools/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/_tools/__pycache__/_main.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/_tools/__pycache__/fine_tunes.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/_tools/__pycache__/migrate.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/cli/__pycache__/_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/lib/__pycache__/_old_api.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/lib/__pycache__/_validators.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/lib/__pycache__/azure.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/pagination.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/audio/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/audio/__pycache__/audio.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/audio/__pycache__/speech.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/audio/__pycache__/transcriptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/audio/__pycache__/translations.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/beta/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/beta/assistants/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/beta/assistants/__pycache__/assistants.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/beta/assistants/__pycache__/files.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/beta/__pycache__/beta.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/beta/threads/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/beta/threads/messages/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/beta/threads/messages/__pycache__/files.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/beta/threads/messages/__pycache__/messages.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/beta/threads/runs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/beta/threads/runs/__pycache__/runs.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/beta/threads/runs/__pycache__/steps.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/beta/threads/__pycache__/threads.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/chat/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/chat/__pycache__/chat.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/chat/__pycache__/completions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/__pycache__/completions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/__pycache__/embeddings.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/__pycache__/files.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/fine_tuning/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/fine_tuning/__pycache__/fine_tuning.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/fine_tuning/__pycache__/jobs.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/__pycache__/images.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/__pycache__/models.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/resources/__pycache__/moderations.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/audio/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/audio/__pycache__/speech_create_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/audio/__pycache__/transcription.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/audio/__pycache__/transcription_create_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/audio/__pycache__/translation.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/audio/__pycache__/translation_create_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/__pycache__/assistant.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/__pycache__/assistant_create_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/__pycache__/assistant_deleted.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/__pycache__/assistant_list_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/__pycache__/assistant_update_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/assistants/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/assistants/__pycache__/assistant_file.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/assistants/__pycache__/file_create_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/assistants/__pycache__/file_delete_response.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/assistants/__pycache__/file_list_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/chat/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/__pycache__/thread.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/__pycache__/thread_create_and_run_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/__pycache__/thread_create_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/__pycache__/thread_deleted.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/__pycache__/thread_update_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/message_content_image_file.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/message_content_text.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/message_create_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/message_list_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/message_update_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/messages/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/messages/__pycache__/file_list_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/messages/__pycache__/message_file.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/required_action_function_tool_call.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/run.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/run_create_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/run_list_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/run_submit_tool_outputs_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/run_update_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/code_tool_call.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/function_tool_call.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/message_creation_step_details.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/retrieval_tool_call.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/run_step.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/step_list_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/runs/__pycache__/tool_calls_step_details.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/beta/threads/__pycache__/thread_message.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_assistant_message_param.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_chunk.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_content_part_image_param.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_content_part_param.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_content_part_text_param.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_function_call_option_param.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_function_message_param.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_message.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_message_param.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_message_tool_call.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_message_tool_call_param.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_named_tool_choice_param.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_role.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_system_message_param.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_token_logprob.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_tool_choice_option_param.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_tool_message_param.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_tool_param.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/chat_completion_user_message_param.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/chat/__pycache__/completion_create_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/completion.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/completion_choice.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/completion_create_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/completion_usage.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/create_embedding_response.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/embedding.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/embedding_create_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/file_content.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/file_create_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/file_deleted.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/file_list_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/file_object.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/fine_tuning/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/fine_tuning/__pycache__/fine_tuning_job.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/fine_tuning/__pycache__/fine_tuning_job_event.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/fine_tuning/__pycache__/job_create_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/fine_tuning/__pycache__/job_list_events_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/fine_tuning/__pycache__/job_list_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/image.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/image_create_variation_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/image_edit_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/image_generate_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/images_response.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/model.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/model_deleted.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/moderation.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/moderation_create_params.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/__pycache__/moderation_create_response.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/shared/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/shared/__pycache__/function_definition.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/shared/__pycache__/function_parameters.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/shared_params/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/shared_params/__pycache__/function_definition.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/types/shared_params/__pycache__/function_parameters.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/openai/__pycache__/version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/openai",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "conda-forge::openai",
+  "sha256": "b8326dea261c7d2373dd89a2af7e9f4dfa98915ca7021c8e54fbb3c302420a94",
+  "size": 124530,
+  "subdir": "noarch",
+  "timestamp": 1708467835836,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/openai-1.13.2-pyhd8ed1ab_0.conda",
+  "version": "1.13.2"
+}

@@ -1,6 +1,5 @@
 ##integeration with openai
 import os
-import openai
 import langchain_community
 from constant import openai_key
 from langchain.llms import OpenAI

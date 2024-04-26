@@ -3,3 +3,7 @@ langchain
 streamlit
 OpenAI
 langchain-openai
+PyPDF2
+FAISS-cpu
+tiktoken
+langchain-community

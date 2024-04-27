@@ -1,0 +1,13 @@
+prefix=/Users/hemantkumar/Developer/Langchain/vectordb/myenv
+exec_prefix=/Users/hemantkumar/Developer/Langchain/vectordb/myenv
+libdir=/Users/hemantkumar/Developer/Langchain/vectordb/myenv/lib
+sharedlibdir=/Users/hemantkumar/Developer/Langchain/vectordb/myenv/lib
+includedir=/Users/hemantkumar/Developer/Langchain/vectordb/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/Users/hemantkumar/Developer/Langchain/vectordb/myenv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/hemantkumar/Developer/Langchain/vectordb/myenv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

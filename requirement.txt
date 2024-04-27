@@ -8,3 +8,4 @@ FAISS-cpu
 tiktoken
 langchain-community
 huggingface_hub
+python-dotenv

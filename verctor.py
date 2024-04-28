@@ -31,4 +31,7 @@ embeddings=OpenAIEmbeddings(api_key=os.environ['OPENAI_API_KEY'])
 print(embeddings)
 
 vector=embeddings.embed_query("what is rosa")
-print(vector)
+len(vector)
+
+
+##vector serach in pinecone 

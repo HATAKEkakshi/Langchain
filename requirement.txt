@@ -9,3 +9,8 @@ tiktoken
 langchain-community
 huggingface_hub
 python-dotenv
+unstructured
+pinecone-client
+pypdf 
+pandas
+numpy

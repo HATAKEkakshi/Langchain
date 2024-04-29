@@ -1,4 +1,5 @@
 import os
+from langchain_core.runnables.base import chain
 import openai
 import langchain
 import pinecone
@@ -9,6 +10,8 @@ from langchain_pinecone import PineconeVectorStore
 from langchain_community.llms import OpenAI
 from langchain_openai import ChatOpenAI  
 from langchain.chains import RetrievalQA 
+from langchain.chains import LLMChain
+from langchain.chains.question_answering import load_qa_chain
 from langchain_community.vectorstores import pinecone
 from dotenv import load_dotenv
 load_dotenv()
@@ -17,6 +20,7 @@ llm = ChatOpenAI(
     model_name='gpt-3.5-turbo',  
     temperature=0.7
 ) 
+chain=load_qa_chain(llm=llm,chain_type="stuff")
 ##lets read the document
 def read_doc(directory):
     file_loader=PyPDFDirectoryLoader(directory)
@@ -60,14 +64,20 @@ qa = RetrievalQA.from_chain_type(
     retriever=index.as_retriever()
 ) 
 #search answer from vector database
-"""def retireve_answer(query):
+def retireve_answer(query):
     doc_search=retrieve_query(query)
-    print(doc_search)
     response=chain.run(input_documents=doc_search,question=query)
-    return response """
+    return response
 
 our_query=input("Ask your query")
-"""answer=retireve_answer(our_query)
+answer=retireve_answer(our_query)
+print(answer)
+
+
+"""def retireve_answer(query):
+    doc_search=retrieve_query(our_query)
+    print(doc_search)
+    response=chain.invoke({"input":"doc_search","question":our_query})
+    return response
+answer=retireve_answer(our_query)
 print(answer)"""
-response1= qa.run(our_query)
-print(response1)

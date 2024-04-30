@@ -10,7 +10,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from dotenv import load_dotenv
 load_dotenv()
 pdfreader=PdfReader("/Users/hemantkumar/Developer/Langchain/document/61536ffd-be39-4921-9c2d-471940e7460d_Hackathon_Idea.pdf")
-add opeai and astra db token and astra db  id
+# add opeai and astra db token and astra db  id
 #read text from pdf
 raw_text=" "
 for i, page in enumerate(pdfreader.pages):

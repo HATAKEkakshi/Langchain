@@ -13,7 +13,7 @@ import os
 chat=ChatOpenAI(openai_api_key=os.getenv("OPENAI_API_KEY"),temperature=0.5)
 if 'flowmessage' not in st.session_state:
     st.session_state['flowmessage']=[
-        SystemMessage(content="You are a comedian")
+        SystemMessage(content="You are a Historical ")
         ]
 ##function to load opeai 
 def get_openai_response(question):

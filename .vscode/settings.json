@@ -1,5 +1,6 @@
 {
     "python.analysis.extraPaths": [
         "./vectordb/myenv/lib/python3.1/site-packages"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }

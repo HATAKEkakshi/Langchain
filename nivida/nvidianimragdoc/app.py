@@ -2,12 +2,12 @@ from openai import OpenAI
 
 client = OpenAI(
   base_url = "https://integrate.api.nvidia.com/v1",
-  api_key = "$API_KEY_REQUIRED_IF_EXECUTING_OUTSIDE_NGC"
+  api_key = "api key"
 )
 
 completion = client.chat.completions.create(
   model="meta/llama3-70b-instruct",
-  messages=[{"role":"user","content":""}],
+  messages=[{"role":"user","content":"tell me about nvidia morpheus"}],
   temperature=0.5,
   top_p=1,
   max_tokens=1024,

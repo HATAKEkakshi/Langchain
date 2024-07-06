@@ -27,3 +27,4 @@ faiss-cpu
 langchain_google_genai
 langchain_nvidia_ai_endpoints
 openai
+langchain_nvidia_ai_endpoints

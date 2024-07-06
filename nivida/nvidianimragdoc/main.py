@@ -12,7 +12,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFDirectoryLoader
 import time
 
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
 load_dotenv()
 
 ## load the Nvidia API key
@@ -48,7 +48,7 @@ Questions:{input}
 )
 
 
-prompt1=st.text_input("Enter Your Question From Doduments")
+prompt1=st.text_input("Enter Your Question From Documents")
 
 
 if st.button("Documents Embedding"):
